@@ -1,0 +1,114 @@
+@charset "utf-8";
+/*
+* @package Pokroff
+* @section 980 styles
+* @author Alexander CSR <need@verstka.pro>
+* @link <www.verstka.pro>
+*/
+
+.screen {height: 980px; display: none;}
+
+.header, .topnav > ul, .page, .footer-wrap, .footer-copy, .region form, .p-main-topline-wrap, .p-main-blocks, .p-main-text, .remember-wrap {width: 954px;}
+.topnav, .footer, .region form, .p-main-topline-wrap, .p-main-blocks, .p-main-text, .remember-wrap {min-width: 954px;}
+
+.header {padding-bottom: 10px;}
+.header-logo {margin: 0px 27px 0px 1px;}
+.header-fastlinks {margin-left: 314px;}
+.header-region {width: 457px;}
+/*.header-nav {width: 368px;}
+.header-nav li {width: 187px;}
+.header-nav li:nth-child(2n) {width: 138px;}*/
+
+.topnav ul {left: -8px;}
+.topnav li.phone {padding: 0px 12px 0px 4px;}
+.topnav .sale {top: 0px; right: -65px; position: absolute !important;}
+.topnav .catalog .dropdown {left: 195px;}
+
+.leftcol {width: 180px;}
+.rightcol {width: 180px;}
+.centercol {margin: 0px 205px;}
+
+.block-opinion-top {padding-bottom: 10px;}
+
+.block-projects img {width: 180px; height: 116px;}
+.block-projects img + u {background-position: -560px 0px !important; height: 11px !important;}
+.block-projects img + u + u {background-position: -740px 0px !important; height: 11px !important;}
+
+.block-search .input input {width: 128px;}
+
+.block-catalog-filter .colors ul {width: 150px;}
+.block-catalog-filter-finded {right: 184px;}
+
+.p-about-opinions {width: 490px;}
+.p-about-opinions-video {float: none; width: 490px; height: 320px;}
+.p-about-opinions-video img {width: 490px; height: 320px;}
+.p-about-opinions-list {width: 490px; height: 91px; overflow: auto;}
+.p-about-opinions-list a {float: left; width: 217px; padding: 6px 10px 8px 9px; margin-bottom: 0px;}
+.p-about-opinions-list a:first-child + a {float: right;}
+.p-about-opinions-list span {line-height: 14px; padding-top: 3px;}
+.p-about-opinions-list-wrap {height: 81px;}
+
+.footer-contacts {width: 205px;}
+.footer-menu {width: 749px;}
+.footer-menu dl {width: 185px;}
+
+.p-catalog-category-list li, .p-catalog-group-list li {width: 262px;}
+.p-catalog-category-list li:nth-child(2n-1), .p-catalog-group-list li:nth-child(2n-1) {padding-left: 0px;}
+.p-catalog-category-list img, .p-catalog-group-list img {width: 262px; height: 216px;}
+.p-catalog-category-list img + u, .p-catalog-group-list img + u {background-position: -1080px 0px !important; height: 15px !important;}
+.p-catalog-category-list img + u + u, .p-catalog-group-list img + u + u {background-position: -1342px 0px !important; height: 15px !important;}
+
+.p-catalog-section-list li {width: 250px; padding-left: 44px;}
+.p-catalog-section-list li:nth-child(2n-1) {padding-left: 0px;}
+
+.p-catalog-namefilter input {width: 520px;}
+
+.p-ins-form .textarea {*width: 246px;}
+.p-ins-form input[type="text"], .p-ins-form textarea {width: 230px;}
+.p-ins-form textarea {min-width: 230px; max-width: 340px;}
+.p-ins-form .file {width: 246px;}
+
+.p-hr-list > dl > dd form dt {width: 200px;}
+.p-hr-list > dl > dd form dd {margin-left: 210px;}
+.p-hr-list > dl > dd form input[type="text"] {width: 280px;}
+.p-hr-list > dl > dd form .file {width: 296px;}
+.p-hr-list > dl > dd form .textarea {width: 296px;}
+.p-hr-list > dl > dd form textarea {width: 280px; height: 65px; min-width: 280px; max-width: 280px; min-height: 65px;}
+.p-hr-list > dl > dd form .button {margin-left: 220px;}
+
+.p-projects-list > li {width: 340px;}
+.p-projects-list > li img {width: 340px;}
+.p-projects-list > li img + u {background-position: -3864px 0px !important; height: 20px !important;}
+.p-projects-list > li img + u + u {background-position: -4204px 0px !important; height: 20px !important;}
+.p-projects-list > li:nth-child(2n) {padding-left: 60px;}
+
+.p-opinions-item-video {width: 380px;}
+
+.add-opinion dt {width: 130px;}
+.add-opinion dd {margin-left: 140px;}
+.add-opinion-submit {padding-left: 140px;}
+.add-opinion-close {padding-right: 14px;}
+.add-opinion .textarea {*width: 256px;}
+.add-opinion textarea {width: 240px; min-width: 180px; max-width: 240px; height: 116px; min-height: 116px;}
+.add-opinion input[type="text"] {width: 240px;}
+
+.p-good-some-related {overflow: hidden; zoom: 1; padding-top: 16px;}
+.p-good-some-related dl {float: left; width: 480px;}
+.p-good-some-related dd {float: left; width: 220px; padding: 0px 20px 12px 0px;}
+.p-good-some-related .block-banner {float: right; width: 220px; margin-top: 6px;}
+
+.p-delivery-map-search .input input {width: 350px;}
+.p-delivery-map-helper {width: 370px;}
+
+.p-main-text h1, .p-main-text h1 + .text {padding: 0px 20px 0px 3px;}
+.p-main-text .text {float: left; width: 460px;}
+
+.p-docs-list dl {width: 170px;}
+
+.p-delivery-map-free {padding-left: 18px; background-position: 0px 0px;}
+
+.p-main-topline-services {padding-left: 11px;}
+.p-main-topline-home {margin-right: 40px;}
+.p-main-block-banner {padding-left: 12px;}
+
+.p-coupons .centercol {margin: 52px 10px 0px;}

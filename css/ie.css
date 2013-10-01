@@ -1,0 +1,32 @@
+@charset "utf-8";
+/*
+* @package Pokroff
+* @section ie styles
+* @author Alexander CSR <need@verstka.pro>
+* @link <www.verstka.pro>
+*/
+
+.corner > i {display: block; width: 5px; height: 5px; position: absolute; background: url(../images/corners.png);}
+.corner > i.tl {top: 0px; left: 0px; background-position: 0px 0px;}
+.corner > i.tr {top: 0px; right: 0px; background-position: -5px 0px;}
+.corner > i.br {bottom: 0px; right: 0px; background-position: -5px -5px;}
+.corner > i.bl {bottom: 0px; left: 0px; background-position: 0px -5px;}
+
+.yellow .corner > i.tl {background-position: -10px 0px;}
+.yellow .corner > i.tr {background-position: -15px 0px;}
+.yellow .corner > i.br {background-position: -15px -5px;}
+.yellow .corner > i.bl {background-position: -10px -5px;}
+
+.p-about-opinions .jspVerticalBar {background: #d9d9d9 url(../images/scroll.png) no-repeat 0px 0px;}
+.p-about-opinions .jspTrack {background: url(../images/scroll.png) no-repeat -12px 100%;}
+.p-about-opinions .jspDragTop {background: url(../images/scroll.png) no-repeat -6px 0px; width: 6px; height: 6px;}
+.p-about-opinions .jspDragBottom {background: url(../images/scroll.png) no-repeat -18px 100%; width: 6px; height: 6px; position: absolute; bottom: 0px;}
+
+.button span span {padding-top: 4px !important; padding-bottom: 3px !important;}
+.button i {margin-top: 0px; *margin-top: 0px !important;}
+
+.tabbed-handler li i {visibility: hidden;}
+.tabbed-handler .ui-state-active i.tl, .tabbed-handler .ui-state-active i.tr {visibility: visible;}
+
+.button span {margin: 0px 0px 0px -10px;}
+.button span span {margin: 0px -10px 0px 0px;}

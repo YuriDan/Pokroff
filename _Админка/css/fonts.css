@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+/* PT Sans */
+
+@font-face {font-family: 'PT Sans'; 
+	src: url('../fonts/PTSans-Regular.eot'); 
+	src: local('PT Sans'), url('../fonts/PTSans-Regular.woff') format('woff'),url('../fonts/PTSans-Regular.ttf') format('truetype'), url('../fonts/PTSans-Regular.svg#PTSans-Regular') format('svg');}
+
+@font-face {font-family: 'PT Sans'; 
+	font-style: italic;
+	src: url('../fonts/PTSans-Italic.eot'); 
+	src: local('PT Sans Italic'), url('../fonts/PTSans-Italic.woff') format('woff'),url('../fonts/PTSans-Italic.ttf') format('truetype'), url('../fonts/PTSans-Italic.svg#PTSans-Italic') format('svg');}
+
+@font-face {font-family: 'PT Sans';
+	src: url('../fonts/PTSans-Bold.eot');
+	font-style: normal;
+	font-weight: bold; 
+	src: local('PT Sans Bold'), url('../fonts/PTSans-Bold.woff') format('woff'),url('../fonts/PTSans-Bold.ttf') format('truetype'), url('../fonts/PTSans-Bold.svg#PTSans-Bold') format('svg');}
+
+@font-face {font-family: 'PT Sans';
+	font-style: italic;
+	font-weight: bold; 
+	src: url('../fonts/PTSans-BoldItalic.eot'); 
+	src: local('PT Sans Bold Italic'), url('../fonts/PTSans-BoldItalic.woff') format('woff'),url('../fonts/PTSans-BoldItalic.ttf') format('truetype'), url('../fonts/PTSans-BoldItalic.svg#PTSans-BoldItalic') format('svg');}

@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="ImageResize" content="no" />
+<meta http-equiv="ImageToolbar" content="no" />
+<meta name="MSSmartTagsPreventParsing" content="true" />
+<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+<link rel="stylesheet" type="text/css" href="css/fonts.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+<!--[if (gte IE 6)&(lte IE 8)]>
+  <script type="text/javascript" src="js/selectivizr.js"></script>
+<![endif]--> 
+<script type="text/javascript" src="js/jquery-ui-1.9.1.custom.min.js"></script>
+<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="js/lib.js"></script>
+<title>Покрофф</title>
+</head>
+<body>
+<div class="cp-wrap">
+	<div class="cp-header">
+		<div class="cp-header-wrap">
+			<a href="#"></a>
+			<p>Управление содержанием сайта</p>
+		</div>
+	</div>
+	<div class="cp-page">
+		<div class="cp-page-speedbar">
+			<ul>
+				<li><a href="#">Управление</a></li>
+				<li><a href="#">Монтажные бригады</a></li>
+				<li><a href="#">Ярославль</a></li>
+			</ul>
+			<a href="#">к списку бригад</a>
+		</div>
+		<h1>Монтажные бригады</h1>
+		<form class="cp-list-filter">
+			<select>
+				<option>Все регионы</option>
+				<option>Не все регионы</option>
+			</select>
+			<fieldset>
+				<ul class="cp-list-filter-new">
+					<li><label><input type="checkbox" /><span>С новыми заявки</span></label></li>
+					<li><label><input type="checkbox" /><span>С новыми отзывами</span></label></li>
+				</ul>
+				<div class="cp-list-filter-free f-daterange">
+					<dl class="cp-f-item">
+						<dt>Свободна с</dt><!--
+					 --><dd>
+					 		<div class="cp-input"><input type="text" class="datepicker from" autocomplete="off" /></div>
+					 	</dd>
+					</dl>
+					<dl class="cp-f-item">
+						<dt>по</dt><!--
+					 --><dd>
+					 		<div class="cp-input"><input type="text" class="datepicker to" autocomplete="off" /></div>
+					 	</dd>
+					</dl>
+				</div>
+				<div class="cp-list-filter-search">
+					<input type="text" placeholder="поиск по названию и описанию" />
+					<input type="submit" value="" />
+				</div>
+			</fieldset>
+		</form>
+		<div class="cp-content">
+			<div class="cp-list-table">
+				<ul class="cp-list-th">
+					<li class="number">№</li>
+					<li class="team">Бригада</li>
+					<li class="man">Контактное лицо</li>
+					<li class="orders asc"><a href="#">Заявки</a></li>
+					<li class="reviews"><a href="#">Отзывы</a></li>
+					<li class="status"><a href="#">Статус</a></li>
+				</ul>
+				<ul class="cp-list-item">
+					<li class="number">1</li>
+					<li class="team">
+						<p><a href="#">Монтажная бригада Дорогова Андрея Николаевича</a></p>
+						<span><b>Ярославль:</b> Ярославль, Дубки, Суздаль</span>
+						<div class="graph"><a href="#"><i></i>График занятости</a></div>
+						<div class="w-teams-graph">
+							<ul class="w-teams-graph-legend">
+								<li><i class="busy"></i><span> — занятые дни</span></li>
+								<li><i class="free"></i><span> — свободные дни</span></li>
+							</ul>
+							<div class="w-teams-graph-calendars">
+								<div class="cp-calendar">
+									<div class="cp-calendar-title">Сентябрь 2013</div>
+									<ul class="cp-calendar-daynames">
+										<li>Пн</li>
+										<li>Вт</li>
+										<li>Ср</li>
+										<li>Чт</li>
+										<li>Пт</li>
+										<li>Сб</li>
+										<li>Вс</li>
+									</ul>
+									<ul class="cp-calendar-days">
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li><span>1</span></li>
+										<li><span>2</span></li>
+										<li><span>3</span></li>
+										<li><span>4</span></li>
+										<li><span>5</span></li>
+										<li><span>6</span></li>
+										<li><span>7</span></li>
+										<li><span>8</span></li>
+										<li><span>9</span></li>
+										<li><span>10</span></li>
+										<li><span>11</span></li>
+										<li><span>12</span></li>
+										<li><span>13</span></li>
+										<li><span>14</span></li>
+										<li><span>15</span></li>
+										<li><span>16</span></li>
+										<li><span>17</span></li>
+										<li><span>18</span></li>
+										<li><span>19</span></li>
+										<li><span>20</span></li>
+										<li><span>21</span></li>
+										<li><span>22</span></li>
+										<li><span>23</span></li>
+										<li><span>24</span></li>
+										<li><span>25</span></li>
+										<li><span>26</span></li>
+										<li><span>27</span></li>
+										<li><span>28</span></li>
+										<li><span>29</span></li>
+										<li><span>30</span></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+									</ul>
+								</div><!--
+							 --><div class="cp-calendar">
+									<div class="cp-calendar-title">Октябрь 2013</div>
+									<ul class="cp-calendar-daynames">
+										<li>Пн</li>
+										<li>Вт</li>
+										<li>Ср</li>
+										<li>Чт</li>
+										<li>Пт</li>
+										<li>Сб</li>
+										<li>Вс</li>
+									</ul>
+									<ul class="cp-calendar-days">
+										<li></li>
+										<li><span>1</span></li>
+										<li><span>2</span></li>
+										<li><span>3</span></li>
+										<li><span>4</span></li>
+										<li><span>5</span></li>
+										<li><span>6</span></li>
+										<li><span>7</span></li>
+										<li><span>8</span></li>
+										<li><span>9</span></li>
+										<li><span>10</span></li>
+										<li><span>11</span></li>
+										<li><span>12</span></li>
+										<li><span>13</span></li>
+										<li><span>14</span></li>
+										<li><span>15</span></li>
+										<li><span>16</span></li>
+										<li><span>17</span></li>
+										<li><span>18</span></li>
+										<li><span>19</span></li>
+										<li><span>20</span></li>
+										<li><span>21</span></li>
+										<li><span>22</span></li>
+										<li><span>23</span></li>
+										<li><span>24</span></li>
+										<li><span>25</span></li>
+										<li><span>26</span></li>
+										<li><span>27</span></li>
+										<li><span>28</span></li>
+										<li><span>29</span></li>
+										<li><span>30</span></li>
+										<li><span>31</span></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="man">Дорогов Андрей, бригадир <br />+7-916-123-45-67 <br />dorogov@mail.ru</li>
+					<li class="orders"><a href="#"><del>12</del> <span>+2</span></a></li>
+					<li class="reviews"><a href="#"><del>6</del> <span>+1</span></a></li>
+					<li class="status">Активная</li>
+				</ul>
+				<ul class="cp-list-item">
+					<li class="number">2</li>
+					<li class="team">
+						<p><a href="#">Монтажная бригада Кротова Алексей Федоровича</a></p>
+						<span><b>Ярославль</b></span>
+						<div class="graph"><a href="#"><i></i>График занятости</a></div>
+						<div class="w-teams-graph">
+							<ul class="w-teams-graph-legend">
+								<li><i class="busy"></i><span> — занятые дни</span></li>
+								<li><i class="free"></i><span> — свободные дни</span></li>
+							</ul>
+							<div class="w-teams-graph-calendars">
+								<div class="cp-calendar">
+									<div class="cp-calendar-title">Сентябрь 2013</div>
+									<ul class="cp-calendar-daynames">
+										<li>Пн</li>
+										<li>Вт</li>
+										<li>Ср</li>
+										<li>Чт</li>
+										<li>Пт</li>
+										<li>Сб</li>
+										<li>Вс</li>
+									</ul>
+									<ul class="cp-calendar-days">
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li><span>1</span></li>
+										<li><span>2</span></li>
+										<li><span>3</span></li>
+										<li><span>4</span></li>
+										<li><span>5</span></li>
+										<li><span>6</span></li>
+										<li><span>7</span></li>
+										<li><span>8</span></li>
+										<li><span>9</span></li>
+										<li><span>10</span></li>
+										<li><span>11</span></li>
+										<li><span>12</span></li>
+										<li><span>13</span></li>
+										<li><span>14</span></li>
+										<li><span>15</span></li>
+										<li><span>16</span></li>
+										<li><span>17</span></li>
+										<li><span>18</span></li>
+										<li><span>19</span></li>
+										<li><span>20</span></li>
+										<li><span>21</span></li>
+										<li><span>22</span></li>
+										<li><span>23</span></li>
+										<li><span>24</span></li>
+										<li><span>25</span></li>
+										<li><span>26</span></li>
+										<li><span>27</span></li>
+										<li><span>28</span></li>
+										<li><span>29</span></li>
+										<li><span>30</span></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+									</ul>
+								</div><!--
+							 --><div class="cp-calendar">
+									<div class="cp-calendar-title">Октябрь 2013</div>
+									<ul class="cp-calendar-daynames">
+										<li>Пн</li>
+										<li>Вт</li>
+										<li>Ср</li>
+										<li>Чт</li>
+										<li>Пт</li>
+										<li>Сб</li>
+										<li>Вс</li>
+									</ul>
+									<ul class="cp-calendar-days">
+										<li></li>
+										<li><span>1</span></li>
+										<li><span>2</span></li>
+										<li><span>3</span></li>
+										<li><span>4</span></li>
+										<li><span>5</span></li>
+										<li><span>6</span></li>
+										<li><span>7</span></li>
+										<li><span>8</span></li>
+										<li><span>9</span></li>
+										<li><span>10</span></li>
+										<li><span>11</span></li>
+										<li><span>12</span></li>
+										<li><span>13</span></li>
+										<li><span>14</span></li>
+										<li><span>15</span></li>
+										<li><span>16</span></li>
+										<li><span>17</span></li>
+										<li><span>18</span></li>
+										<li><span>19</span></li>
+										<li><span>20</span></li>
+										<li><span>21</span></li>
+										<li><span>22</span></li>
+										<li><span>23</span></li>
+										<li><span>24</span></li>
+										<li><span>25</span></li>
+										<li><span>26</span></li>
+										<li><span>27</span></li>
+										<li><span>28</span></li>
+										<li><span>29</span></li>
+										<li><span>30</span></li>
+										<li><span>31</span></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="man">Архангелогородский Константин, заместитель <br />+7-916-098-87-92</li>
+					<li class="orders"><a href="#"><del>10</del></a></li>
+					<li class="reviews"><a href="#"><del>4</del></a></li>
+					<li class="status">Активная</li>
+				</ul>
+				<ul class="cp-list-item">
+					<li class="number">3</li>
+					<li class="team">
+						<p><a href="#">Монтажная бригада Чатаджана Артура</a></p>
+						<span><b>Ярославль:</b> Ярославль, Дубки, Суздаль</span>
+						<div class="graph"><a href="#"><i></i>График занятости</a></div>
+						<div class="w-teams-graph">
+							<ul class="w-teams-graph-legend">
+								<li><i class="busy"></i><span> — занятые дни</span></li>
+								<li><i class="free"></i><span> — свободные дни</span></li>
+							</ul>
+							<div class="w-teams-graph-calendars">
+								<div class="cp-calendar">
+									<div class="cp-calendar-title">Сентябрь 2013</div>
+									<ul class="cp-calendar-daynames">
+										<li>Пн</li>
+										<li>Вт</li>
+										<li>Ср</li>
+										<li>Чт</li>
+										<li>Пт</li>
+										<li>Сб</li>
+										<li>Вс</li>
+									</ul>
+									<ul class="cp-calendar-days">
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li><span>1</span></li>
+										<li><span>2</span></li>
+										<li><span>3</span></li>
+										<li><span>4</span></li>
+										<li><span>5</span></li>
+										<li><span>6</span></li>
+										<li><span>7</span></li>
+										<li><span>8</span></li>
+										<li><span>9</span></li>
+										<li><span>10</span></li>
+										<li><span>11</span></li>
+										<li><span>12</span></li>
+										<li><span>13</span></li>
+										<li><span>14</span></li>
+										<li><span>15</span></li>
+										<li><span>16</span></li>
+										<li><span>17</span></li>
+										<li><span>18</span></li>
+										<li><span>19</span></li>
+										<li><span>20</span></li>
+										<li><span>21</span></li>
+										<li><span>22</span></li>
+										<li><span>23</span></li>
+										<li><span>24</span></li>
+										<li><span>25</span></li>
+										<li><span>26</span></li>
+										<li><span>27</span></li>
+										<li><span>28</span></li>
+										<li><span>29</span></li>
+										<li><span>30</span></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+									</ul>
+								</div><!--
+							 --><div class="cp-calendar">
+									<div class="cp-calendar-title">Октябрь 2013</div>
+									<ul class="cp-calendar-daynames">
+										<li>Пн</li>
+										<li>Вт</li>
+										<li>Ср</li>
+										<li>Чт</li>
+										<li>Пт</li>
+										<li>Сб</li>
+										<li>Вс</li>
+									</ul>
+									<ul class="cp-calendar-days">
+										<li></li>
+										<li><span>1</span></li>
+										<li><span>2</span></li>
+										<li><span>3</span></li>
+										<li><span>4</span></li>
+										<li><span>5</span></li>
+										<li><span>6</span></li>
+										<li><span>7</span></li>
+										<li><span>8</span></li>
+										<li><span>9</span></li>
+										<li><span>10</span></li>
+										<li><span>11</span></li>
+										<li><span>12</span></li>
+										<li><span>13</span></li>
+										<li><span>14</span></li>
+										<li><span>15</span></li>
+										<li><span>16</span></li>
+										<li><span>17</span></li>
+										<li><span>18</span></li>
+										<li><span>19</span></li>
+										<li><span>20</span></li>
+										<li><span>21</span></li>
+										<li><span>22</span></li>
+										<li><span>23</span></li>
+										<li><span>24</span></li>
+										<li><span>25</span></li>
+										<li><span>26</span></li>
+										<li><span>27</span></li>
+										<li><span>28</span></li>
+										<li><span>29</span></li>
+										<li><span>30</span></li>
+										<li><span>31</span></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="man">Чатаджан Артур, бригадир <br />+7-916-123-45-67</li>
+					<li class="orders"><a href="#"><del>6</del></a></li>
+					<li class="reviews"><a href="#"><del>3</del></a></li>
+					<li class="status">Активная</li>
+				</ul>
+				<ul class="cp-list-item">
+					<li class="number">4</li>
+					<li class="team">
+						<p><a href="#">Монтажная бригада Ротшильда Натана Майера</a></p>
+						<span><b>Вся планета:</b> Европа, Азия, Северная америка, Южная Америка,Австралия.</span>
+						<div class="graph"><a href="#"><i></i>График занятости</a></div>
+						<div class="w-teams-graph">
+							<ul class="w-teams-graph-legend">
+								<li><i class="busy"></i><span> — занятые дни</span></li>
+								<li><i class="free"></i><span> — свободные дни</span></li>
+							</ul>
+							<div class="w-teams-graph-calendars">
+								<div class="cp-calendar">
+									<div class="cp-calendar-title">Сентябрь 2013</div>
+									<ul class="cp-calendar-daynames">
+										<li>Пн</li>
+										<li>Вт</li>
+										<li>Ср</li>
+										<li>Чт</li>
+										<li>Пт</li>
+										<li>Сб</li>
+										<li>Вс</li>
+									</ul>
+									<ul class="cp-calendar-days">
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li><span>1</span></li>
+										<li><span>2</span></li>
+										<li><span>3</span></li>
+										<li><span>4</span></li>
+										<li><span>5</span></li>
+										<li><span>6</span></li>
+										<li><span>7</span></li>
+										<li><span>8</span></li>
+										<li><span>9</span></li>
+										<li><span>10</span></li>
+										<li><span>11</span></li>
+										<li><span>12</span></li>
+										<li><span>13</span></li>
+										<li><span>14</span></li>
+										<li><span>15</span></li>
+										<li><span>16</span></li>
+										<li><span>17</span></li>
+										<li><span>18</span></li>
+										<li><span>19</span></li>
+										<li><span>20</span></li>
+										<li><span>21</span></li>
+										<li><span>22</span></li>
+										<li><span>23</span></li>
+										<li><span>24</span></li>
+										<li><span>25</span></li>
+										<li><span>26</span></li>
+										<li><span>27</span></li>
+										<li><span>28</span></li>
+										<li><span>29</span></li>
+										<li><span>30</span></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+									</ul>
+								</div><!--
+							 --><div class="cp-calendar">
+									<div class="cp-calendar-title">Октябрь 2013</div>
+									<ul class="cp-calendar-daynames">
+										<li>Пн</li>
+										<li>Вт</li>
+										<li>Ср</li>
+										<li>Чт</li>
+										<li>Пт</li>
+										<li>Сб</li>
+										<li>Вс</li>
+									</ul>
+									<ul class="cp-calendar-days">
+										<li></li>
+										<li><span>1</span></li>
+										<li><span>2</span></li>
+										<li><span>3</span></li>
+										<li><span>4</span></li>
+										<li><span>5</span></li>
+										<li><span>6</span></li>
+										<li><span>7</span></li>
+										<li><span>8</span></li>
+										<li><span>9</span></li>
+										<li><span>10</span></li>
+										<li><span>11</span></li>
+										<li><span>12</span></li>
+										<li><span>13</span></li>
+										<li><span>14</span></li>
+										<li><span>15</span></li>
+										<li><span>16</span></li>
+										<li><span>17</span></li>
+										<li><span>18</span></li>
+										<li><span>19</span></li>
+										<li><span>20</span></li>
+										<li><span>21</span></li>
+										<li><span>22</span></li>
+										<li><span>23</span></li>
+										<li><span>24</span></li>
+										<li><span>25</span></li>
+										<li><span>26</span></li>
+										<li><span>27</span></li>
+										<li><span>28</span></li>
+										<li><span>29</span></li>
+										<li><span>30</span></li>
+										<li><span>31</span></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="man">Обама Барак, менеджер <br />b.obama@usa.gov</li>
+					<li class="orders"><a href="#"><del>10096</del> <span>+196</span></a></li>
+					<li class="reviews"><a href="#"><del>9805</del> <span>+130</span></a></li>
+					<li class="status">Активная</li>
+				</ul>
+				<ul class="cp-list-item">
+					<li class="number">5</li>
+					<li class="team">
+						<p><a href="#">Бригада 1 ООО «СМУ СТРОЙ-КА»</a></p>
+						<span><b>Москва:</b> Ярославль, Дубки, Суздаль</span>
+						<div class="graph"><a href="#"><i></i>График занятости</a></div>
+						<div class="w-teams-graph">
+							<ul class="w-teams-graph-legend">
+								<li><i class="busy"></i><span> — занятые дни</span></li>
+								<li><i class="free"></i><span> — свободные дни</span></li>
+							</ul>
+							<div class="w-teams-graph-calendars">
+								<div class="cp-calendar">
+									<div class="cp-calendar-title">Сентябрь 2013</div>
+									<ul class="cp-calendar-daynames">
+										<li>Пн</li>
+										<li>Вт</li>
+										<li>Ср</li>
+										<li>Чт</li>
+										<li>Пт</li>
+										<li>Сб</li>
+										<li>Вс</li>
+									</ul>
+									<ul class="cp-calendar-days">
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li><span>1</span></li>
+										<li><span>2</span></li>
+										<li><span>3</span></li>
+										<li><span>4</span></li>
+										<li><span>5</span></li>
+										<li><span>6</span></li>
+										<li><span>7</span></li>
+										<li><span>8</span></li>
+										<li><span>9</span></li>
+										<li><span>10</span></li>
+										<li><span>11</span></li>
+										<li><span>12</span></li>
+										<li><span>13</span></li>
+										<li><span>14</span></li>
+										<li><span>15</span></li>
+										<li><span>16</span></li>
+										<li><span>17</span></li>
+										<li><span>18</span></li>
+										<li><span>19</span></li>
+										<li><span>20</span></li>
+										<li><span>21</span></li>
+										<li><span>22</span></li>
+										<li><span>23</span></li>
+										<li><span>24</span></li>
+										<li><span>25</span></li>
+										<li><span>26</span></li>
+										<li><span>27</span></li>
+										<li><span>28</span></li>
+										<li><span>29</span></li>
+										<li><span>30</span></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+									</ul>
+								</div><!--
+							 --><div class="cp-calendar">
+									<div class="cp-calendar-title">Октябрь 2013</div>
+									<ul class="cp-calendar-daynames">
+										<li>Пн</li>
+										<li>Вт</li>
+										<li>Ср</li>
+										<li>Чт</li>
+										<li>Пт</li>
+										<li>Сб</li>
+										<li>Вс</li>
+									</ul>
+									<ul class="cp-calendar-days">
+										<li></li>
+										<li><span>1</span></li>
+										<li><span>2</span></li>
+										<li><span>3</span></li>
+										<li><span>4</span></li>
+										<li><span>5</span></li>
+										<li><span>6</span></li>
+										<li><span>7</span></li>
+										<li><span>8</span></li>
+										<li><span>9</span></li>
+										<li><span>10</span></li>
+										<li><span>11</span></li>
+										<li><span>12</span></li>
+										<li><span>13</span></li>
+										<li><span>14</span></li>
+										<li><span>15</span></li>
+										<li><span>16</span></li>
+										<li><span>17</span></li>
+										<li><span>18</span></li>
+										<li><span>19</span></li>
+										<li><span>20</span></li>
+										<li><span>21</span></li>
+										<li><span>22</span></li>
+										<li><span>23</span></li>
+										<li><span>24</span></li>
+										<li><span>25</span></li>
+										<li><span>26</span></li>
+										<li><span>27</span></li>
+										<li><span>28</span></li>
+										<li><span>29</span></li>
+										<li><span>30</span></li>
+										<li><span>31</span></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="man">Дудлин Григория Владимирович, директор <br />8 (967) 067-87-96</li>
+					<li class="orders"><a href="#"><del>3</del></a></li>
+					<li class="reviews"><a href="#"><del>1</del></a></li>
+					<li class="status">Активная</li>
+				</ul>
+				<div class="cp-navigator">
+					<ul class="cp-navigator-pager">
+						<li>←</li>
+						<li><b>1</b></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li>…</li>
+						<li><a href="#">13</a></li>
+						<li><a href="#">14</a></li>
+						<li><a href="#">→</a></li>
+					</ul>
+					<dl class="cp-navigator-shower">
+						<dt>отзывов на странице:</dt>
+						<dd><a href="#">5</a></dd>
+						<dd><b>10</b></dd>
+						<dd><a href="#">20</a></dd>
+						<dd><a href="#">50</a></dd>
+						<dd><a href="#">все</a></dd>
+					</dl>
+				</div>
+				<a href="#" class="cp-list-add cp-button">Добавить бригаду</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="cp-footer"></div>
+</body>
+</html>
+<!-- www.verstka.pro -->
