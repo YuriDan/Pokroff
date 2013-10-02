@@ -73,6 +73,7 @@ a, a img {border: none;}
 .cp-f-item dt {display: inline-block; vertical-align: top;}
 .cp-f-item dd {display: inline-block; vertical-align: top;}
 .cp-f-tip {display: inline-block; vertical-align: middle; padding-left: 7px;}
+.cp-f-tip a {text-decoration: none; font-size: 13px;}
 
 .cp-f-custom-radios {overflow: hidden; padding-top: 2px;}
 .cp-f-custom-radios label {cursor: pointer; display: block; float: left; margin-right: 20px; position: relative;}
@@ -235,6 +236,20 @@ a, a img {border: none;}
 
 /**/
 
+.cp-reviews form.editor {display: none; padding: 24px 25px; border-top: 1px solid #dedede;}
+.cp-reviews form.editor h2 {font-size: 18px; color: #000; padding-bottom: 23px;}
+.cp-reviews form.editor .cp-f-item {padding-bottom: 10px;}
+.cp-reviews form.editor .cp-f-item dt {width: 130px; padding: 2px 10px 0px 0px;}
+.cp-reviews form.editor .cp-f-item dd {width: 441px;}
+.cp-reviews form.editor .cp-f-item.name input {width: 423px;}
+.cp-reviews form.editor .cp-f-item.phone input {width: 123px;}
+.cp-reviews form.editor .cp-f-item.email input {width: 293px;}
+.cp-reviews form.editor .cp-rating-big {margin: 0px 0px 2px 2px;}
+.cp-reviews form.editor .cp-f-item.review textarea {width: 423px; height: 118px;}
+.cp-reviews form.editor .cp-f-submit {overflow: hidden; width: 441px; padding: 21px 0px 0px 140px;}
+.cp-reviews form.editor .cp-f-submit .button {display: block; float: left;}
+.cp-reviews form.editor .cp-f-submit .cancel {display: block; float: right;}
+
 .cp-reviews {border-top: 1px solid #e2e2e2;}
 .cp-reviews-item {overflow: hidden; padding: 12px 0px 3px; border-bottom: 1px solid #e2e2e2; color: #000;}
 .cp-reviews-item .text {float: left; width: 340px; padding: 0px 30px 0px 8px; font-size: 13px; line-height: 20px;}
@@ -247,30 +262,21 @@ a, a img {border: none;}
 .cp-reviews-item-options a {display: block; float: left; margin-left: 15px;}
 .cp-reviews-item-options a.i-cp-view {margin-top: 2px;}
 .cp-reviews-item-options a.i-cp-delete {margin-top: 2px;}
-
-.cp-reviews-item form {float: left; width: 100%; display: none; border-top: 1px solid #fff; margin-top: 16px; padding: 24px 25px;}
-.cp-reviews-item form h2 {font-size: 18px; color: #000; padding-bottom: 23px;}
-.cp-reviews-item form .cp-f-item {padding-bottom: 10px;}
-.cp-reviews-item form .cp-f-item dt {width: 130px; padding: 2px 10px 0px 0px;}
-.cp-reviews-item form .cp-f-item dd {width: 441px;}
-.cp-reviews-item form .cp-f-item.name input {width: 423px;}
-.cp-reviews-item form .cp-f-item.phone input {width: 123px;}
-.cp-reviews-item form .cp-f-item.email input {width: 293px;}
-.cp-reviews-item form .cp-rating-big {margin: 0px 0px 2px 2px;}
-.cp-reviews-item form .cp-f-item.review textarea {width: 423px; height: 118px;}
-.cp-reviews-item form .cp-f-submit {overflow: hidden; width: 441px; padding: 21px 0px 0px 140px;}
-.cp-reviews-item form .cp-f-submit .button {display: block; float: left;}
-.cp-reviews-item form .cp-f-submit .cancel {display: block; float: right;}
+.cp-reviews-item form.editor {float: left; width: 100%; border-top: 1px solid #fff; margin-top: 16px;}
 
 .cp-reviews .cp-navigator {margin-bottom: 26px;}
 
-.cp-reviews-add {margin: 0px 0px 10px 12px;}
+.cp-reviews-add > .cp-button {margin-top: 22px;}
+.cp-reviews-add.active > .cp-button {display: none;}
+.cp-reviews-add.active form {display: block; background: #f1f1f1;}
 
 .cp-reviews-item:hover .cp-reviews-item-options {display: block;}
 .cp-reviews-item.new {background: #fffaed;}
 .cp-reviews-item.new .text, .cp-reviews-item.new .cp-reviews-item-contacts {font-weight: bold;}
 .cp-reviews-item.editable {background: #f1f1f1;}
 .cp-reviews-item.editable form {display: block;}
+
+.cp-reviews-item.disabled {opacity: 0.50; filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50); -khtml-opacity: 0.50; -moz-opacity: 0.50;}
 
 /**/
 
@@ -323,6 +329,20 @@ a, a img {border: none;}
 .cp-list-add {margin: 0px 0px 10px 12px;}
 
 /**/
+.cp-orders form.editor {display: none; padding: 22px 17px; border-top: 1px solid #dedede;}
+.cp-orders form.editor h2 {font-size: 18px; color: #000; padding-bottom: 24px;}
+.cp-orders form.editor .cp-f-item {padding-bottom: 10px;}
+.cp-orders form.editor .cp-f-item dt {width: 130px; padding: 3px 10px 0px 0px; font-size: 14px;}
+.cp-orders form.editor .cp-f-item dd {width: 550px;}
+.cp-orders form.editor .cp-f-item.name input {width: 423px;}
+.cp-orders form.editor .cp-f-item.phone input {width: 123px;}
+.cp-orders form.editor .cp-f-item.email input {width: 293px;}
+.cp-orders form.editor .cp-f-item.address input {width: 423px;}
+.cp-orders form.editor .cp-f-item.order textarea {width: 423px; height: 118px;}
+.cp-orders form.editor .cp-f-custom-radios {padding: 3px 0px 5px 3px; font-size: 14px;}
+.cp-orders form.editor .cp-f-submit {overflow: hidden; width: 441px; padding: 10px 0px 0px 140px;}
+.cp-orders form.editor .cp-f-submit .button {display: block; float: left;}
+.cp-orders form.editor .cp-f-submit .cancel {display: block; float: right;}
 
 .cp-orders {border-top: 1px solid #e2e2e2;}
 .cp-orders-item {overflow: hidden; border-bottom: 1px solid #e2e2e2; padding: 14px 0px 4px 8px; font-size: 13px; line-height: 20px;}
@@ -342,6 +362,7 @@ a, a img {border: none;}
 .cp-orders-item-options a + a {margin-left: 22px;}
 .cp-orders-item-options a.i-cp-mark {margin-top: 2px;}
 .cp-orders-item-options a.i-cp-delete {margin-top: 2px;}
+.cp-orders-item form.editor {float: left; width: 100%; border-top: 1px solid #fff; margin-top: 5px;}
 
 .cp-orders-item:hover .cp-orders-item-options a {visibility: visible;}
 .cp-orders-item.new {background: #fffaed;}
@@ -351,20 +372,7 @@ a, a img {border: none;}
 .cp-orders-item.new .cp-orders-item-project p {font-weight: bold;}
 
 .cp-orders-item.editable {background: #f1f1f1;}
-.cp-orders-item form {display: block; float: left; width: 100%; border-top: 1px solid #fff; margin-top: 5px; padding: 22px 17px;}
-.cp-orders-item form h2 {font-size: 18px; color: #000; padding-bottom: 24px;}
-.cp-orders-item form .cp-f-item {padding-bottom: 10px;}
-.cp-orders-item form .cp-f-item dt {width: 130px; padding: 3px 10px 0px 0px; font-size: 14px;}
-.cp-orders-item form .cp-f-item dd {width: 550px;}
-.cp-orders-item form .cp-f-item.name input {width: 423px;}
-.cp-orders-item form .cp-f-item.phone input {width: 123px;}
-.cp-orders-item form .cp-f-item.email input {width: 293px;}
-.cp-orders-item form .cp-f-item.address input {width: 423px;}
-.cp-orders-item form .cp-f-item.order textarea {width: 423px; height: 118px;}
-.cp-orders-item form .cp-f-custom-radios {padding: 3px 0px 5px 3px; font-size: 14px;}
-.cp-orders-item form .cp-f-submit {overflow: hidden; width: 441px; padding: 10px 0px 0px 140px;}
-.cp-orders-item form .cp-f-submit .button {display: block; float: left;}
-.cp-orders-item form .cp-f-submit .cancel {display: block; float: right;}
+.cp-orders-item.editable form {display: block;}
 
 .cp-orders-item-variants > div {display: none;}
 
@@ -387,7 +395,8 @@ a, a img {border: none;}
 
 .cp-orders .cp-navigator {margin-bottom: 26px;}
 
-.cp-orders-add {margin: 0px 0px 10px 12px;}
+.cp-orders-add.active > .cp-button {display: none;}
+.cp-orders-add.active form {display: block; background: #f1f1f1;}
 
 
 /* * * * * * * * * * * * * * * * */

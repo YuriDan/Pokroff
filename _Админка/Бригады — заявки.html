@@ -112,7 +112,7 @@
 						<a href="#" class="i-cp-edit"></a>
 						<a href="#" class="i-cp-delete"></a>
 					</div>
-					<form>
+					<form class="editor">
 						<h2>Редактирование заявки</h2>
 						<dl class="cp-f-item name">
 							<dt>ФИО клиента</dt><!--
@@ -219,7 +219,72 @@
 						<dd><a href="#">все</a></dd>
 					</dl>
 				</div>
-				<a href="#" class="cp-orders-add cp-button">Добавить заявку</a>
+				<div class="cp-orders-add">
+					<a href="#" class="cp-button">Добавить заявку</a>
+					<form action="" class="editor">
+						<h2>Новая заявка</h2>
+						<dl class="cp-f-item name">
+							<dt>ФИО клиента</dt><!--
+						 --><dd>
+						 		<div class="cp-input"><input type="text" value="Лихобабин Алексей Валерьевич" /></div>
+						 	</dd>
+						</dl>
+						<dl class="cp-f-item phone">
+							<dt>Номер телефона</dt><!--
+						 --><dd>
+						 		<div class="cp-input"><input type="text" value="" /></div>
+						 	</dd>
+						</dl>
+						<dl class="cp-f-item email">
+							<dt>Электронная почта</dt><!--
+						 --><dd>
+						 		<div class="cp-input"><input type="text" value="lihobabin@yandex.ru" /></div>
+						 	</dd>
+						</dl>
+						<dl class="cp-f-item address">
+							<dt>Адрес объекта</dt><!--
+						 --><dd>
+						 		<div class="cp-input"><input type="text" value="Московская область, поселок Чемодановка, 3-й проезд,  д. 14" /></div><span class="cp-f-tip"><a href="#">на карте</a></span>
+						 	</dd>
+						</dl>
+						<dl class="cp-f-item sizing">
+							<dt>Размер кровли</dt><!--
+						 --><dd>
+								<div class="cp-f-custom-radios">
+									<label><input type="radio" name="price" checked /><span>Замер не проводился</span></label>
+									<label><input type="radio" name="price" /><span>Есть проект</span></label>
+									<label><input type="radio" name="price" /><span>Размеры сняты самостоятельно</span></label>
+								</div>
+								<div class="cp-orders-item-variants">
+									<div class="cp-orders-item-variant-measure">
+										<label><input type="checkbox" checked /><span>Требуется замер</span></label>
+									</div>
+									<div class="cp-orders-item-variant-files">
+										<ul>
+											<li><a href="#"><i></i><span>Проект кровли 01092013.doc</span></a><a href="#" class="i-cp-delete"></a></li>
+											<li><a href="#"><i></i><span>Схема кровли.pdf</span></a><a href="#" class="i-cp-delete"></a></li>
+											<li><a href="#"><i></i><span>Пояснительная записка к проекту 01092013.doc</span></a><a href="#" class="i-cp-delete"></a></li>
+										</ul>
+										<div class="cp-orders-item-variant-files-add"><input type="file" /><span>Приложить файл</span></div>
+									</div>
+									<div class="cp-orders-item-variant-individual">
+										<div class="cp-input"><textarea placeholder="комментарий"></textarea></div>
+									</div>
+								</div>
+						 	</dd>
+						</dl>
+						<dl class="cp-f-item order">
+							<dt>Текст заявки</dt><!--
+						 --><dd>
+						 		<div class="cp-input"><textarea>Здравствуйте. Мне нужно сделать крышу на даче. Как мнеполучить оценку и сделать заказ?</textarea></div>
+						 	</dd>
+						</dl>
+						<div class="cp-f-submit">
+							<div class="cp-button"><input type="submit" value="" />Сохранить</div>
+							<a href="#" class="cancel">Отменить</a>
+						</div>
+					</form>
+				</div>
 			</div>
 		</div>
 	</div>

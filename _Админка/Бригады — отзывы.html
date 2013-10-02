@@ -120,7 +120,7 @@
 						<a href="#" class="i-cp-delete"></a>
 						<a href="#" class="i-cp-view"></a>
 					</div>
-					<form>
+					<form class="editor">
 						<h2>Редактирование отзыва</h2>
 						<dl class="cp-f-item name">
 							<dt>ФИО клиента</dt><!--
@@ -186,7 +186,7 @@
 						<a href="#" class="i-cp-view"></a>
 					</div>
 				</div>
-				<div class="cp-reviews-item">
+				<div class="cp-reviews-item disabled">
 					<div class="text">
 						<p>Грамотная и точная подготовка сметы. Разумный подход к бюджету проекта и типам используемых материалов. Отработали оперативно и честно. Все накладки решались быстро и непринужденно.
 Никаких задержек, по 12 часов в день.</p>
@@ -228,7 +228,53 @@
 						<dd><a href="#">все</a></dd>
 					</dl>
 				</div>
-				<a href="#" class="cp-reviews-add cp-button">Добавить отзыв</a>
+				<div class="cp-reviews-add">
+					<a href="#" class="cp-button">Добавить отзыв</a>
+					<form action="" class="editor">
+						<h2>Новый отзыв</h2>
+						<dl class="cp-f-item name">
+							<dt>ФИО клиента</dt><!--
+						 --><dd>
+						 		<div class="cp-input"><input type="text" value="Константинов Николай Владимирович" /></div>
+						 	</dd>
+						</dl>
+						<dl class="cp-f-item phone">
+							<dt>Номер телефона</dt><!--
+						 --><dd>
+						 		<div class="cp-input"><input type="text" value="89160986725" /></div>
+						 	</dd>
+						</dl>
+						<dl class="cp-f-item email">
+							<dt>Электронная почта</dt><!--
+						 --><dd>
+						 		<div class="cp-input"><input type="text" value="" /></div>
+						 	</dd>
+						</dl>
+						<dl class="cp-f-item rating">
+							<dt>Оценка</dt><!--
+						 --><dd>
+								<ul class="cp-rating-big">
+								  <li class="rated"><span style="width: 100%;"></span></li>
+								  <li class="rate-1"><label><input type="radio" name="rate4" value="1" autocomplete="off" /></label></li>
+								  <li class="rate-2"><label><input type="radio" name="rate4" value="2" autocomplete="off" /></label></li>
+								  <li class="rate-3"><label><input type="radio" name="rate4" value="3" autocomplete="off" /></label></li>
+								  <li class="rate-4"><label><input type="radio" name="rate4" value="4" autocomplete="off" /></label></li>
+								  <li class="rate-5"><label><input type="radio" name="rate4" value="5" autocomplete="off" /></label></li>
+								</ul>
+						 	</dd>
+						</dl>
+						<dl class="cp-f-item review">
+							<dt>Текст отзыва</dt><!--
+						 --><dd>
+						 		<div class="cp-input"><textarea>Ну что я могу сказать про эту бригаду... Луч|</textarea></div>
+						 	</dd>
+						</dl>
+						<div class="cp-f-submit">
+							<div class="cp-button"><input type="submit" value="" />Сохранить</div>
+							<a href="#" class="cancel">Отменить</a>
+						</div>
+					</form>
+				</div>
 			</div>
 		</div>
 	</div>
