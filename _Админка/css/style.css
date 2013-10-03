@@ -57,6 +57,7 @@ a, a img {border: none;}
 .cp-calendar-days li:empty {border-color: transparent;}
 .cp-calendar-days li[style] span {background: #e2e2e2;}
 .cp-calendar-days span {display: block; height: 100%; background: #96c78c;}
+.cp-calendar-days span.empty {background: #e2e2e2;color: #777;}
 
 .cp-wrap {min-height: 100%; font-family: "PT Sans", sans-serif;}
 .cp-footer {height: 75px; background: #303030; margin-top: -75px;}
