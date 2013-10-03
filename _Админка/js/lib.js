@@ -124,6 +124,16 @@ $(document).ready(function(){
 		$(this).parents('.cp-orders-add').toggleClass('active');
 	});
 
+	$('.cp-obj-list-item .status > p a, .cp-obj-list-item .cancel').on('click', function (e) {
+		e.preventDefault();
+		$(this).parents('.cp-obj-list-item').toggleClass('active');
+	});
+
+	$('.cp-obj-list-add > .cp-button, .cp-obj-list-add .cancel').on('click', function (e) {
+		e.preventDefault();
+		$(this).parents('.cp-obj-list-add').toggleClass('active');
+	});
+
 	$('.cp-graph-calendar').bxSlider({
 		minSlides: 4,
 		maxSlides: 4,
