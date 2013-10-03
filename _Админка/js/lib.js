@@ -17,7 +17,7 @@ $.datepicker.setDefaults({
   firstDay: 1,
   prevText: '',
   nextText: '',
-  dateFormat: 'dd M yy'
+  dateFormat: 'd M yy'
 });
 
 $(document).ready(function(){

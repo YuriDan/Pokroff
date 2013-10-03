@@ -21,6 +21,8 @@ a, a img {border: none;}
 
 /** {outline: 1px solid #c00}*/
 
+select {font: 14px "PT Sans", Arial, Helvetica, sans-serif; display: inline-block; vertical-align: top;}
+
 [placeholder]::-webkit-input-placeholder {color: #777; font-style: italic;}
 [placeholder]:-moz-placeholder {color: #777; font-style: italic;}
 [placeholder]::-moz-placeholder {color: #777; font-style: italic;}
@@ -74,7 +76,8 @@ a, a img {border: none;}
 .cp-f-item dt {display: inline-block; vertical-align: top;}
 .cp-f-item dd {display: inline-block; vertical-align: top;}
 .cp-f-tip {display: inline-block; vertical-align: middle; padding-left: 7px;}
-.cp-f-tip a {text-decoration: none; font-size: 13px;}
+.cp-f-tip a {text-decoration: none;}
+.cp-f-tip a:hover {text-decoration: underline;}
 
 .cp-f-custom-radios {overflow: hidden; padding-top: 2px;}
 .cp-f-custom-radios label {cursor: pointer; display: block; float: left; margin-right: 20px; position: relative;}
@@ -339,6 +342,7 @@ a, a img {border: none;}
 .cp-orders form.editor .cp-f-item.phone input {width: 123px;}
 .cp-orders form.editor .cp-f-item.email input {width: 293px;}
 .cp-orders form.editor .cp-f-item.address input {width: 423px;}
+.cp-orders form.editor .cp-f-item.address .cp-f-tip {font-size: 13px;}
 .cp-orders form.editor .cp-f-item.order textarea {width: 423px; height: 118px;}
 .cp-orders form.editor .cp-f-custom-radios {padding: 3px 0px 5px 3px; font-size: 14px;}
 .cp-orders form.editor .cp-f-submit {overflow: hidden; width: 441px; padding: 10px 0px 0px 140px;}
@@ -399,6 +403,24 @@ a, a img {border: none;}
 .cp-orders-add.active > .cp-button {display: none;}
 .cp-orders-add.active form {display: block; background: #f1f1f1;}
 
+
+/**/
+
+.cp-obj-info {padding: 16px 0px 0px 7px; font-size: 14px; color: #000;}
+.cp-obj-info fieldset {display: block; padding-bottom: 13px;}
+.cp-obj-info .cp-f-item {padding-bottom: 11px;}
+.cp-obj-info .cp-f-item > dt {width: 200px; padding: 2px 12px 0px 0px;}
+.cp-obj-info .cp-f-item > dd {width: 680px;}
+.cp-obj-info .cp-f-item.name input {width: 423px;}
+.cp-obj-info .cp-f-item.address input {width: 423px;}
+.cp-obj-info .cp-f-item.team select {width: 443px;}
+.cp-obj-info .cp-f-item.team .cp-f-tip a {margin-left: 10px;}
+.cp-obj-info .cp-f-item.period input {width: 111px;}
+.cp-obj-info .cp-f-item.period span {display: inline-block; vertical-align: top; padding: 2px;}
+.cp-obj-info .cp-f-item.done {padding-bottom: 16px;}
+.cp-obj-info .cp-f-item.done textarea {width: 423px; min-width: 100px; max-width: 600px; height: 117px; min-height: 28px; max-height: 500px;}
+.cp-obj-info .cp-f-item.price input {width: 64px;}
+.cp-obj-info .cp-f-submit {padding-left: 212px;}
 
 /* * * * * * * * * * * * * * * * */
 
