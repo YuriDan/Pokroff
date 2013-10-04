@@ -71,9 +71,9 @@ $(document).ready(function(){
 		$(this).toggleClass('active');
 	});
 	
-	$('.cp-orders-item .cp-f-custom-radios input').on('change', function () {
+	$('.cp-orders-item .cp-f-custom-radios input, .cp-orders-add .cp-f-custom-radios input').on('change', function () {
 		var index = $(this).parents('label').index();
-		$('.cp-orders-item-variants > div').hide(0).filter(':eq('+index+')').show(0);
+		$(this).parents('.cp-f-custom-radios').parent().find('.cp-orders-item-variants > div').hide(0).filter(':eq('+index+')').show(0);
 	});
 	$('.cp-orders-item .cp-f-custom-radios input:checked').trigger('change');
 	
