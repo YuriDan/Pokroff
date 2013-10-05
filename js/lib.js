@@ -270,7 +270,12 @@ $(document).ready(function(){
 	
 	$('a[rel="fotorama"]').on('click', function(e) {
 		e.preventDefault();
-		$(this).next('.fotorama').trigger('fullscreenopen');
+		$(this).siblings('.fotorama').fotorama({allowfullscreen: true}).data('fotorama').requestFullScreen();
+	});
+	
+	$('.p-obj-list-item-image a').on('click', function(e) {
+		e.preventDefault();
+		$(this).parents('.p-obj-list-item').find('.fotorama').fotorama({allowfullscreen: true}).data('fotorama').requestFullScreen();
 	});
 	
 	if ($('.block-banner li').size() > 1) {
