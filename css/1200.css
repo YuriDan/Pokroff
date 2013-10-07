@@ -100,3 +100,8 @@
 
 .p-coupons .centercol {margin: 52px 38px 0px;}
 .p-coupons-filter {margin-right: 48px;}
+
+.p-obj-list-item {width: 430px;}
+.p-obj-list-item:after {background-image: url(../images/objects-list-wide.png);}
+.p-obj-list-item-image:before {background-image: url(../images/objects-list-wide-top.png);}
+.p-obj-list-item-image:after {background-image: url(../images/objects-list-wide-bottom.png);}
