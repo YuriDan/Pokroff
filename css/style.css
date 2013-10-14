@@ -1361,6 +1361,21 @@ h1 span {font-size: 15px;}
 
 .p-obj-list .w-pager {margin-right: 6px;}
 
+/**/
+
+.cp-calendar {width: 220px; text-align: center;}
+.cp-calendar-title {color: #000; font-size: 14px; text-indent: -19px;}
+.cp-calendar-daynames {color: #777; font-size: 12px; overflow: hidden; padding: 6px 0px;}
+.cp-calendar-daynames li {width: 30px; float: left; border: 1px solid transparent; margin: 0px 0px -1px -1px;}
+.cp-calendar-days {font-size: 13px; color: #fff; overflow: hidden;}
+.cp-calendar-days li {width: 30px; height: 30px; float: left; line-height: 30px; border: 1px solid #fff; margin: 0px -1px -1px 0px;}
+/*.cp-calendar-days li.busy span {background: #e2e2e2;}*/
+/*.cp-calendar-days li.js-hover span {background: #aaa;}*/
+.cp-calendar-days li:empty {border-color: transparent;}
+.cp-calendar-days li[style] span {background: #e2e2e2;}
+.cp-calendar-days span {display: block; height: 100%; background: #96c78c;}
+.cp-calendar-days span.empty {background: #e2e2e2;color: #777;}
+
 
 /* * * * * * * * * * * * * * * * */
 
