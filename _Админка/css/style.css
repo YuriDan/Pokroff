@@ -186,14 +186,17 @@ select {font: 14px "PT Sans", Arial, Helvetica, sans-serif; display: inline-bloc
 .cp-graph-add.active form {display: block; background: #f1f1f1;}
 
 .cp-graph-periods {width: 380px; margin-top: 67px;}
-.cp-graph-periods h2 {font-size: 20px; color: #000; font-weight: normal; border-bottom: 1px solid #e2e2e2; padding: 0px 0px 24px 5px;}
-.cp-graph-periods dl {border-bottom: 1px solid #e2e2e2; padding-bottom: 15px;}
-.cp-graph-periods dl:hover dt a {display: block;}
-.cp-graph-periods dt {overflow: hidden; padding: 12px 13px 0px 6px;}
-.cp-graph-periods dt a {display: none; float: right; text-decoration: none;}
-.cp-graph-periods dt a:hover {text-decoration: underline;}
-.cp-graph-periods dt a:first-child {float: left; display: block;}
-.cp-graph-periods dd {padding: 6px 0px 3px 6px; font-size: 14px; color: #000;}
+.cp-graph-periods > h2 {font-size: 20px; color: #000; font-weight: normal; border-bottom: 1px solid #e2e2e2; padding: 0px 0px 24px 5px;}
+.cp-graph-periods > dl {border-bottom: 1px solid #e2e2e2; padding-bottom: 15px;}
+.cp-graph-periods > dl:hover dt a {display: block;}
+.cp-graph-periods > dl > dt {overflow: hidden; padding: 12px 13px 0px 6px;}
+.cp-graph-periods > dl > dt a {display: none; float: right; text-decoration: none;}
+.cp-graph-periods > dl > dt a:hover {text-decoration: underline;}
+.cp-graph-periods > dl > dt a:first-child {float: left; display: block;}
+.cp-graph-periods > dl > dd {padding: 6px 0px 3px 6px; font-size: 14px; color: #000;}
+.cp-graph-periods .cp-graph-add {width: 901px; border-top: 1px solid #e2e2e2; border-bottom: 1px solid #e2e2e2; margin-top: -1px; display: none;}
+.cp-graph-periods > dl.active {display: none;}
+.cp-graph-periods > dl.active + .cp-graph-add {display: block;}
 .cp-graph-periods .i-cp-delete {margin: 7px 0px 0px 22px;}
 .cp-graph-periods .i-cp-edit {margin-top: 5px;}
 

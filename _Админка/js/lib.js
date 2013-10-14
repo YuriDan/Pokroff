@@ -134,6 +134,16 @@ $(document).ready(function(){
 		$(this).parents('.cp-obj-list-add').toggleClass('active');
 	});
 
+	$('.cp-graph-periods .i-cp-edit').on('click', function (e) {
+		e.preventDefault();
+		$(this).parents('dl').toggleClass('active');
+	});
+
+	$('.cp-graph-periods .cancel').on('click', function (e) {
+		e.preventDefault();
+		$(this).parents('.cp-graph-add').prev('dl').toggleClass('active');
+	});
+
 	$('.cp-graph-calendar').bxSlider({
 		minSlides: 4,
 		maxSlides: 4,
