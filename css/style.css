@@ -1345,7 +1345,7 @@ h1 span {font-size: 15px;}
 .p-obj-list-item:nth-child(2n) {float: right;}
 .p-obj-list-item:after {content: ''; width: 100%; height: 20px; position: absolute; left: 0; bottom: 0; background: url(../images/objects-list.png);}
 .p-obj-list-item .fotorama {position: absolute; top: -9999px; left: -9999px;}
-.p-obj-list-item-image {position: relative;}
+.p-obj-list-item-image {position: relative;overflow: hidden;height: 280px;}
 .p-obj-list-item-image:before, .p-obj-list-item-image:after {content: ''; width: 100%; height: 23px; left: 0; display: block; position: absolute;}
 .p-obj-list-item-image:before {background: url(../images/objects-list-narrow-top.png) no-repeat; top: 0;}
 .p-obj-list-item-image:after {background: url(../images/objects-list-narrow-bottom.png) no-repeat 100% 100%; bottom: 0;}
