@@ -73,6 +73,14 @@ a, a img {border: none;}
 .button.send:active span {background-position: 0px -693px;}
 .button.send:active span span {background-position: 100% -779px;} */
 
+.button.v2 {margin: 0; background: url(../images/buttons.v2.png) 0px 0px; padding: 0 22px; height: 27px; line-height: 26px; box-shadow: 0px 1px 0px rgba(0, 0, 0, .75);}
+.button.v2:hover {background-position: 0px -27px;}
+.button.v2:active {background-position: 0px -54px;}
+
+.button.v2.h34 {height: 34px; line-height: 34px; background-position: 0px -81px;}
+.button.v2.h34:hover {background-position: 0px -115px;}
+.button.v2.h34:active {background-position: 0px -149px;}
+
 .input {background: url(../images/forms.png) 0px -29px; display: inline-block; *display: inline; zoom: 1; vertical-align: top;}
 .input span {display: block; background: url(../images/forms.png) no-repeat; height: 29px;}
 .input span span {background-position: 100% -58px;}
@@ -82,6 +90,9 @@ a, a img {border: none;}
 .input.error {background-position: 0px -174px;}
 .input.error span {background-position: 0px -145px;}
 .input.error span span {background-position: 100% -203px;}
+
+.input.v2 {background: none; border: 1px solid #c6c6c6;}
+.input.v2 input {padding: 4px 12px 3px;}
 
 .file {background: url(../images/forms.png) 0px -29px; display: inline-block; *display: inline; zoom: 1; vertical-align: top; position: relative; overflow: hidden;}
 .file > span {display: block; background: url(../images/forms.png) no-repeat; height: 29px;}
@@ -157,6 +168,11 @@ a, a img {border: none;}
 .i-b-measure {width: 20px; height: 20px; background-position: -321px -203px;}
 .i-b-reviews {width: 16px; height: 20px; background-position: -341px -203px;}
 .i-b-consult {width: 26px; height: 24px; background-position: -338px -179px;}
+.i-b-print {width: 12px; height: 14px; background-position: -120px -254px;}
+.i-b-save {width: 11px; height: 14px; background-position: -132px -254px;}
+
+.i-edit {width: 13px; height: 15px; background-position: -188px -200px;}
+a.i-edit:hover, a:hover .i-edit {background-position: -175px -200px;}
 
 .button .i-calc {width: 13px; height: 17px; background-position: 0px 0px; margin: 2px 13px 0px -10px;}
 .button .i-project {width: 16px; height: 17px; background-position: -13px 0px; margin: 3px 10px 0px -10px;}
@@ -1376,6 +1392,84 @@ h1 span {font-size: 15px;}
 .cp-calendar-days span {display: block; height: 100%; background: #96c78c;}
 .cp-calendar-days span.empty {background: #e2e2e2;color: #777;}
 
+/* social coupon */
+
+.p-soccoupon {padding-bottom: 50px;}
+
+.p-soccoupon .centercol {margin: 0px; max-width: 1041px;}
+
+.p-soccoupon-preview {overflow: hidden; border-bottom: 5px solid #f1f1f1; padding-top: 9px; margin-bottom: 21px;}
+.p-soccoupon-preview img {display: block; float: left; border: 1px solid #f2f2f2; border-radius: 2px; margin-top: 2px;}
+.p-soccoupon-preview-expire {float: right; width: 139px; padding: 15px 10px 18px; text-align: center; border: 2px solid #ffe8b2; border-radius: 5px; margin-right: 138px;}
+.p-soccoupon-preview-expire dt {font-weight: bold; padding-bottom: 3px;}
+.p-soccoupon-preview-expire dd {font-size: 12px; line-height: 18px;}
+.p-soccoupon-preview .text {margin: 2px 320px 0px 238px;}
+.p-soccoupon-preview .text b {display: block; padding-top: 3px; line-height: 24px;}
+.p-soccoupon-preview .text b span {font-size: 20px;}
+
+.p-soccoupon-steps {overflow: hidden; padding-bottom: 33px;}
+.p-soccoupon-steps li {float: left; text-align: center; width: 70px; position: relative;}
+.p-soccoupon-steps li:before {content: ''; width: 64px; height: 8px; background-color: #d4d4d4; display: block; position: absolute; top: 15px; left: -46px;}
+.p-soccoupon-steps li.active:before {background-color: #77aee6;}
+.p-soccoupon-steps li:first-child:before {display: none;}
+.p-soccoupon-steps li + li {margin-left: 29px;}
+.p-soccoupon-steps a {text-decoration: none; color: #333;}
+.p-soccoupon-steps b {display: inline-block; vertical-align: top; width: 36px; height: 36px; text-align: center; font-size: 24px; line-height: 36px; background-color: #d4d4d4; color: #474747;}
+.p-soccoupon-steps span {display: block; font-size: 13px; line-height: 15px; padding-top: 10px;}
+.p-soccoupon-steps .active b {background-color: #77aee6; color: #fff;}
+.p-soccoupon-steps .active span {font-weight: bold; font-size: 15px; line-height: 18px; padding-top: 8px;}
+
+.p-soccoupon-create .input {margin-bottom: 17px;}
+.p-soccoupon-create .input input {width: 472px;}
+
+/**/
+
+.p-soccoupon-ready-alert {line-height: 28px; padding: 17px 0px 43px 3px;}
+.p-soccoupon-ready-alert dt {font-weight: bold; font-size: 18px; padding-bottom: 2px;}
+.p-soccoupon-ready-alert dd {font-size: 15px;}
+
+.p-soccoupon-main {overflow: hidden; padding: 0px 0px 20px 4px;}
+.p-soccoupon-main .w-soccoupon {float: left;}
+
+.w-soccoupon {width: 720px; border: 1px solid #4b7dba; position: relative;}
+.w-soccoupon:after {content: ''; display: block; width: 100%; height: 18px; background: url(../images/soccoupon-shadow.png) no-repeat 50% 0px; position: absolute; top: 100%; left: 0;}
+.w-soccoupon-header {background-color: #e7eef7; padding: 32px 35px 21px; margin-bottom: 45px;}
+.w-soccoupon-header-logo {overflow: hidden; padding-bottom: 16px;}
+.w-soccoupon-header-logo strong {display: block; float: left; font-size: 30px; color: #0d52a5; padding-top: 4px;}
+.w-soccoupon-header-logo img {display: block; float: right;}
+.w-soccoupon-header-data {font-size: 18px; line-height: 28px;}
+.w-soccoupon-header-data .i-edit {margin: 8px 0px 0px 5px;}
+
+.w-soccoupon-body {padding: 0px 37px;}
+
+.w-soccoupon-offer {border-bottom: 1px solid #4b7dba; padding-bottom: 32px; margin-bottom: 31px;}
+.w-soccoupon-offer dt {color: #4b7dba; font-weight: bold; font-size: 18px; padding-bottom: 12px;}
+.w-soccoupon-offer dd {padding-bottom: 10px;}
+
+.w-soccoupon-shops {overflow: hidden; padding-bottom: 81px;}
+.w-soccoupon-shops dt {color: #4b7dba; font-weight: bold; font-size: 24px; padding-bottom: 35px;}
+.w-soccoupon-shops dd {float: left; width: 300px;}
+.w-soccoupon-shops dd + dd {padding-left: 37px;}
+.w-soccoupon-shops p {padding-bottom: 22px;}
+.w-soccoupon-shops b {display: block;}
+
+.w-soccoupon-footer {background: #e7eef7; overflow: hidden; height: 53px; line-height: 53px; padding: 0px 35px;}
+.w-soccoupon-footer p {display: block; float: left; font-size: 18px;}
+.w-soccoupon-footer a {display: block; float: right; color: #333;}
+
+.p-soccoupon-main-rightcol {width: 224px; float: left; padding-left: 18px;}
+.p-soccoupon-main-rightcol .b {margin-top: 19px;}
+.p-soccoupon-main-rightcol .b-title {padding-top: 20px;}
+.p-soccoupon-main-rightcol .b-title + * {padding: 12px 15px 27px;}
+
+.p-soccoupon-main-buttons {padding-bottom: 6px;}
+.p-soccoupon-main-buttons .button {display: block; text-align: center; margin-bottom: 18px; padding: 0;}
+.p-soccoupon-main-buttons .button i {margin: 10px 8px 0px 0px;}
+
+.p-soccoupon-main-next {border-top: 1px solid #e2e2e2; padding: 36px 15px;}
+.p-soccoupon-main-next a:after {content: '→'; position: absolute; margin-left: 5px;}
+
+.footer {margin-bottom: 500px;}
 
 /* * * * * * * * * * * * * * * * */
 

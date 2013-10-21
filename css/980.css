@@ -112,3 +112,9 @@
 .p-main-block-banner {padding-left: 12px;}
 
 .p-coupons .centercol {margin: 52px 10px 0px;}
+
+.p-soccoupon-preview .text {margin-right: 270px;}
+.p-soccoupon-preview-expire {margin-right: 68px;}
+
+.w-soccoupon {width: 700px;}
+.w-soccoupon-shops dd + dd {padding-left: 17px;}
