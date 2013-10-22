@@ -93,6 +93,7 @@ a, a img {border: none;}
 
 .input.v2 {background: none; border: 1px solid #c6c6c6;}
 .input.v2 input {padding: 4px 12px 3px;}
+.input.v2 textarea {padding: 4px 12px 3px; border: 0px; font: 15px/22px Arial, Helvetica, sans-serif; color: #2e2e2e; background: url(../images/blank.gif);}
 
 .file {background: url(../images/forms.png) 0px -29px; display: inline-block; *display: inline; zoom: 1; vertical-align: top; position: relative; overflow: hidden;}
 .file > span {display: block; background: url(../images/forms.png) no-repeat; height: 29px;}
@@ -253,6 +254,32 @@ a.i-edit:hover, a:hover .i-edit {background-position: -175px -200px;}
 .b-consult {padding: 25px 15px 22px;}
 .b-consult p {padding-bottom: 22px;}
 .b-consult a {color: #005190;}
+
+.b-share p {padding-bottom: 12px;}
+.b-share-icons {width: 130px; margin-bottom: -14px;}
+.b-share-icons a {width: 30px; height: 30px; margin: 0px 3px 3px 0px;}
+.b-share-icons a.i-vk {background-position: 0px -290px;}
+.b-share-icons a.i-ok {background-position: -30px -290px;}
+.b-share-icons a.i-fb {background-position: -60px -290px;}
+.b-share-icons a.i-tw {background-position: 0px -320px;}
+.b-share-icons a.i-gp {background-position: -30px -320px;}
+.b-share-icons a.i-mr {background-position: -60px -320px;}
+
+.b-sharing-empty {padding: 20px;}
+
+.b-sharing-sent {padding: 14px 18px 20px;}
+.b-sharing-sent dl + dl {padding-top: 24px;}
+.b-sharing-sent dt {font-size: 18px; font-weight: bold;}
+.b-sharing-sent dd {overflow: hidden;}
+.b-sharing-sent dd a {display: block; float: left; width: 40px; height: 40px; margin-right: 5px;}
+.b-sharing-sent dd a.i-vk {background-position: 0px -350px;}
+.b-sharing-sent dd a.i-ok {background-position: -40px -350px;}
+.b-sharing-sent dd a.i-fb {background-position: -80px -350px;}
+.b-sharing-sent dd a.i-tw {background-position: 0px -390px;}
+.b-sharing-sent dd a.i-gp {background-position: -40px -390px;}
+.b-sharing-sent dd a.i-mr {background-position: -80px -390px;}
+.b-sharing-sent p {padding-top: 16px;}
+.b-sharing-sent-social {padding: 27px 0px 0px 8px;}
 
 /* /blocks */
 
@@ -1428,7 +1455,7 @@ h1 span {font-size: 15px;}
 .p-soccoupon-ready-alert dt {font-weight: bold; font-size: 18px; padding-bottom: 2px;}
 .p-soccoupon-ready-alert dd {font-size: 15px;}
 
-.p-soccoupon-main {overflow: hidden; padding: 0px 0px 20px 4px;}
+.p-soccoupon-main {overflow: hidden; padding-bottom: 20px;}
 .p-soccoupon-main .w-soccoupon {float: left;}
 
 .w-soccoupon {width: 720px; border: 1px solid #4b7dba; position: relative;}
@@ -1457,8 +1484,10 @@ h1 span {font-size: 15px;}
 .w-soccoupon-footer p {display: block; float: left; font-size: 18px;}
 .w-soccoupon-footer a {display: block; float: right; color: #333;}
 
-.p-soccoupon-main-rightcol {width: 224px; float: left; padding-left: 18px;}
+.p-soccoupon-main-rightcol {width: 224px; float: left; padding-left: 22px;}
 .p-soccoupon-main-rightcol .b {margin-top: 19px;}
+.p-soccoupon-main-rightcol .b + .b {margin-top: -23px;}
+.p-soccoupon-main-rightcol .b:first-child {margin-top: 0;}
 .p-soccoupon-main-rightcol .b-title {padding-top: 20px;}
 .p-soccoupon-main-rightcol .b-title + * {padding: 12px 15px 27px;}
 
@@ -1468,6 +1497,51 @@ h1 span {font-size: 15px;}
 
 .p-soccoupon-main-next {border-top: 1px solid #e2e2e2; padding: 36px 15px;}
 .p-soccoupon-main-next a:after {content: '→'; position: absolute; margin-left: 5px;}
+
+.p-soccoupon-stat {padding: 10px 0px 55px;}
+.p-soccoupon-stat dt {font-size: 24px; line-height: 36px; font-weight: bold; padding-bottom: 25px;}
+.p-soccoupon-stat dd {font-size: 20px; line-height: 28px;}
+
+.p-soccoupon-tabs {overflow: hidden; padding-bottom: 45px;}
+.p-soccoupon-tabs li {float: left; margin-right: 20px;}
+.p-soccoupon-tabs a {border-bottom: 3px solid #c6c6c6; text-decoration: none; color: #000; padding-bottom: 3px;}
+.p-soccoupon-tabs a:hover {border-bottom-color: #ffa10c;}
+.p-soccoupon-tabs .active a {font-weight: bold; border-bottom-color: #ffa10c;}
+
+.p-soccoupon-info {padding: 10px 0px 65px;}
+.p-soccoupon-info .f-item {padding-bottom: 8px;}
+.p-soccoupon-info .f-item dt {display: inline-block; vertical-align: top; width: 191px; text-indent: 1px; padding-top: 5px;}
+.p-soccoupon-info .f-item dd {display: inline-block; vertical-align: top; width: 450px;}
+.p-soccoupon-info .f-item.name input {width: 382px;}
+.p-soccoupon-info .f-item.phone input {width: 129px;}
+.p-soccoupon-info .button {margin: 11px 0px 0px 191px;}
+
+.p-soccoupon-sharing {padding: 16px 0px 0px; overflow: hidden;}
+.p-soccoupon-sharing-leftcol {float: left; width: 530px;}
+.p-soccoupon-sharing-rightcol {float: left; width: 383px; padding-left: 48px;}
+
+.p-soccoupon-sharing .text {padding-bottom: 26px;}
+
+.p-soccoupon-sharing-buttons {padding-bottom: 31px;}
+.p-soccoupon-sharing-buttons dt {font-weight: bold; font-size: 18px; padding-bottom: 20px;}
+.p-soccoupon-sharing-buttons dd {overflow: hidden;}
+.p-soccoupon-sharing-buttons dd a {display: block; float: left; width: 40px; height: 40px; margin-right: 5px;}
+.p-soccoupon-sharing-buttons dd a.i-vk {background-position: 0px -350px;}
+.p-soccoupon-sharing-buttons dd a.i-ok {background-position: -40px -350px;}
+.p-soccoupon-sharing-buttons dd a.i-fb {background-position: -80px -350px;}
+.p-soccoupon-sharing-buttons dd a.i-tw {background-position: 0px -390px;}
+.p-soccoupon-sharing-buttons dd a.i-gp {background-position: -40px -390px;}
+.p-soccoupon-sharing-buttons dd a.i-mr {background-position: -80px -390px;}
+
+.p-soccoupon-sharing-form {width: 408px; border-top: 1px solid #e2e2e2; padding-bottom: 33px;}
+.p-soccoupon-sharing-form .f-item {padding: 20px 0px 15px;}
+.p-soccoupon-sharing-form .f-item dt {font-weight: 500; font-size: 18px; padding-bottom: 17px;}
+.p-soccoupon-sharing-form .f-item input, .p-soccoupon-sharing-form .f-item textarea {width: 382px;}
+.p-soccoupon-sharing-form .f-item textarea {height: 68px;}
+
+.p-soccoupon-sharing-backlink {border-top: 1px solid #e2e2e2; clear: both; padding-top: 30px;}
+.p-soccoupon-sharing-backlink a {margin-left: 18px;}
+.p-soccoupon-sharing-backlink a:before {content: '←'; position: absolute; margin-left: -18px;}
 
 .footer {margin-bottom: 500px;}
 
