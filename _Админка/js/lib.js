@@ -134,6 +134,28 @@ $(document).ready(function(){
 		$(this).parents('.cp-obj-list-add').toggleClass('active');
 	});
 
+	$('.cp-coupons-item .agents > a').on('click', function (e) {
+		e.preventDefault();
+		$(this).parents('.cp-coupons-table').find('.cp-coupons-popup:visible').hide(0);
+		$(this).parents('.cp-coupons-item').find('.cp-coupons-popup').show(0);
+	});
+
+	$('.cp-coupons-item .agents .close').on('click', function (e) {
+		e.preventDefault();
+		$(this).parents('.cp-coupons-table').find('.cp-coupons-popup:visible').hide(0);
+	});
+
+	$(document).on('click', function (e) {
+		if ($('.cp-coupons-table').length) {
+			if ($(e.target).is(':not(.cp-coupons-popup)')
+				&& $(e.target).is(':not(.cp-coupons-popup .close)')
+				&& $(e.target).is(':not(.cp-coupons-item .agents > a)')
+				&& !$(e.target).parents('.cp-coupons-popup').length) {
+				$('.cp-coupons-popup').hide(0);
+			}
+		}
+	});
+
 	$('.cp-graph-periods .i-cp-edit').on('click', function (e) {
 		e.preventDefault();
 		$(this).parents('dl').toggleClass('active');

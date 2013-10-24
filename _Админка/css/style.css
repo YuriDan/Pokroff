@@ -35,6 +35,13 @@ select {font: 14px "PT Sans", Arial, Helvetica, sans-serif; display: inline-bloc
 
 [class^="i-"] {display: inline-block; *display: inline; zoom: 1; vertical-align: top; background: url(../images/sprite.png);}
 
+.i-vk-20 {background-position: 0px -254px;}
+.i-ok-20 {background-position: -20px -254px;}
+.i-fb-20 {background-position: -40px -254px;}
+.i-tw-20 {background-position: -60px -254px;}
+.i-gp-20 {background-position: -80px -254px;}
+.i-mr-20 {background-position: -100px -254px;}
+
 #calendar_title {position: absolute; background: #fffadd; box-shadow: 0px 1px 5px rgba(0, 0, 0, .75); font-size: 13px; line-height: 20px; padding: 8px 14px;}
 
 .cp-graph-calendar-wrap {position: relative;}
@@ -543,6 +550,58 @@ select {font: 14px "PT Sans", Arial, Helvetica, sans-serif; display: inline-bloc
 .cp-obj-list-add form {display: none;}
 .cp-obj-list-add.active > .cp-button {display: none;}
 .cp-obj-list-add.active form {display: block;}
+
+/**/
+
+.cp-coupons-header {padding: 7px 0px 4px 4px;}
+.cp-coupons-header .total {font-size: 18px; padding-bottom: 9px;}
+.cp-coupons-header dl {overflow: hidden; font-size: 14px; padding-bottom: 8px;}
+.cp-coupons-header dt {float: left; font-weight: bold;}
+.cp-coupons-header dd {float: left; padding-left: 18px;}
+.cp-coupons-header dd ul {overflow: hidden; padding-top: 6px; position: relative; left: -2px;}
+.cp-coupons-header dd li {float: left; width: 20px; text-align: center; margin-right: 3px;}
+.cp-coupons-header dd i {display: block; width: 20px; height: 20px;}
+.cp-coupons-header dd span {display: block; font-size: 10px; line-height: 18px;}
+
+.cp-coupons-filter {overflow: hidden; border-top: 1px solid #e2e2e2; padding: 24px 0px 45px;}
+.cp-coupons-filter .cp-list-filter-search {float: left; margin-right: 40px;}
+.cp-coupons-filter select {width: 160px; margin-right: 40px;}
+
+.cp-coupons-th {overflow: hidden; border-bottom: 1px solid #e2e2e2; font-weight: bold; color: #000; font-size: 14px; padding: 2px 0px 13px;}
+.cp-coupons-th li {float: left;}
+.cp-coupons-th .asc a:after, .cp-coupons-th .desc a:after {content: ''; display: inline-block; vertical-align: top; width: 8px; height: 5px; background-image: url(../images/sprite.png); margin: 11px 0px 0px 5px;}
+.cp-coupons-th .asc a:after {background-position: -278px -201px;}
+.cp-coupons-th .desc a:after {background-position: -278px -206px;}
+
+.cp-coupons-table a {text-decoration: none;}
+.cp-coupons-table a:hover {text-decoration: underline;}
+
+.cp-coupons-table .number {width: 128px;}
+.cp-coupons-table .name {width: 312px;}
+.cp-coupons-table .phone {width: 159px;}
+.cp-coupons-table .created {width: 141px;}
+
+.cp-coupons-item {height: 47px; font-size: 13px; line-height: 52px;}
+.cp-coupons-item + .cp-coupons-item {border-top: 1px solid #e2e2e2;}
+.cp-coupons-item li {display: inline-block;}
+.cp-coupons-item .created {color: #777; font-size: 11px;}
+.cp-coupons-item .agents {text-align: center; width: 100px; position: relative;}
+.cp-coupons-item .agents > a {font-weight: bold;}
+
+.cp-coupons-popup {position: absolute; z-index: 2; text-align: left; top: 47px; right: 39px; width: 432px; background-color: #f6f6f6; box-shadow: 0px 2px 5px rgba(0, 0, 0, .5); line-height: normal; display: none;}
+.cp-coupons-popup h2 {padding: 14px 20px 22px;}
+.cp-coupons-popup a.close {display: block; position: absolute; width: 10px; height: 11px; background: url(../images/sprite.png) -175px -189px; top: 12px; right: 11px;}
+.cp-coupons-popup a.close:hover {background-position: -185px -189px;}
+.cp-coupons-popup ul {overflow: hidden; padding: 0px 23px 23px;}
+.cp-coupons-popup li {float: left; font-size: 13px; line-height: 20px;}
+.cp-coupons-popup li.num {width: 48px;}
+.cp-coupons-popup li.data {width: 230px;}
+.cp-coupons-popup li.joined {width: 107px; padding-top: 2px; text-align: right; font-size: 11px; color: #777;}
+.cp-coupons-popup p {white-space: nowrap; position: relative; overflow: hidden; text-overflow: ellipsis; -o-text-overflow: ellipsis; -ms-text-overflow: ellipsis;}
+.cp-coupons-popup dl {overflow: hidden;}
+.cp-coupons-popup dt {float: left;}
+.cp-coupons-popup dd {float: left;}
+.cp-coupons-popup dd i {display: block; float: left; width: 20px; height: 20px; margin: 2px 0px 0px 10px;}
 
 
 /* * * * * * * * * * * * * * * * */
