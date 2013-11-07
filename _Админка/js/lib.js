@@ -29,11 +29,11 @@ $(document).ready(function(){
 				var text = $(this).html();
 				$(this).attr('data-default', text);
 			}
-			$(this).html('Скрыть').siblings('.full').slideDown(200);
+			$(this).html('Скрыть').siblings('.full').show(0);
 		}
 		else {
 			var text = $(this).attr('data-default');
-			$(this).html(text).siblings('.full').slideUp(200);
+			$(this).html(text).siblings('.full').hide(0);
 		}
 	});
 	
