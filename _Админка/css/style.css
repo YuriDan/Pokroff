@@ -71,7 +71,7 @@ select {font: 14px "PT Sans", Arial, Helvetica, sans-serif; display: inline-bloc
 .cp-wrap {min-height: 100%; font-family: "PT Sans", sans-serif;}
 .cp-footer {height: 75px; background: #303030; margin-top: -75px;}
 
-.cp-button {height: 35px; font-size: 16px; line-height: 34px; position: relative; color: #fff; text-decoration: none; padding: 0px 27px; background: url(../images/cp-button.png); display: inline-block; vertical-align: top; text-shadow: 0px 1px 0px #000;}
+.cp-button {height: 35px; font-size: 16px; line-height: 32px; position: relative; color: #fff; text-decoration: none; padding: 0px 27px; background: url(../images/cp-button.png); display: inline-block; vertical-align: top; text-shadow: 0px 1px 0px rgba(0, 0, 0, .5);}
 .cp-button input {display: block; position: absolute; top: 0px; left: 0px; background: #fff; border: 0px; width: 100%; height: 100%; opacity: 0.01; filter: progid:DXImageTransform.Microsoft.Alpha(opacity=1); -khtml-opacity: 0.01; -moz-opacity: 0.01;}
 .cp-button:hover {background-position: 0px -35px;}
 .cp-button:active {background-position: 0px -70px;}
@@ -98,7 +98,7 @@ select {font: 14px "PT Sans", Arial, Helvetica, sans-serif; display: inline-bloc
 .cp-f-photo-added {float: left; padding-right: 6px;}
 .cp-f-photo-added li {float: left; width: 75px; height: 75px; background: url(../images/sprite.png) -203px -179px; border: 1px solid #c6c6c6; border-radius: 1px;}
 .cp-f-photo-added li:empty {cursor: pointer;}
-.cp-f-photo-button {float: left; height: 22px; padding: 0px 18px; color: #fff; text-shadow: 0px 1px 0px rgba(0, 0, 0, .5); font-size: 12px; line-height: 22px; background: #529cf6; box-shadow: 0px 1px 0px rgba(0, 0, 0, .75); cursor: pointer; margin-top: 1px;}
+.cp-f-photo-button {float: left; height: 24px; padding: 0px 18px; color: #fff; font-size: 13px; line-height: 22px; background: #5a87bd; box-shadow: 0px 1px 0px rgba(0, 0, 0, .75); cursor: pointer; margin-top: 1px;}
 .cp-f-photo-button:hover {background: #83b6e9;}
 .cp-f-photo-button:active {background: #4480d2;}
 
