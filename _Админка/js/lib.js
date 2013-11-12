@@ -129,11 +129,6 @@ $(document).ready(function(){
 		$(this).parents('.cp-obj-list-item').toggleClass('active');
 	});
 
-	$('.cp-obj-list-add > .cp-button, .cp-obj-list-add .cancel').on('click', function (e) {
-		e.preventDefault();
-		$(this).parents('.cp-obj-list-add').toggleClass('active');
-	});
-
 	$('.cp-coupons-item .agents > a').on('click', function (e) {
 		e.preventDefault();
 		$(this).parents('.cp-coupons-table').find('.cp-coupons-popup:visible').hide(0);
