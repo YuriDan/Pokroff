@@ -1543,6 +1543,10 @@ h1 span {font-size: 15px;}
 .p-soccoupon-sharing-backlink a {margin-left: 18px;}
 .p-soccoupon-sharing-backlink a:before {content: '←'; position: absolute; margin-left: -18px;}
 
+.p-soccoupon-doublephone > span {padding: 4px 4px 0px 0px; display: inline-block; vertical-align: top;}
+.p-soccoupon-doublephone .code {width: 30px !important;}
+.p-soccoupon-doublephone .phone {width: 60px !important;}
+
 /* services */
 
 .p-services-text {border-bottom: none !important; padding-bottom: 43px !important;}
