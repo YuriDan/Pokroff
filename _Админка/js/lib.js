@@ -24,16 +24,19 @@ $(document).ready(function(){
 	
 	$('.text .more').on('click', function (e) {
 		e.preventDefault();
+		var preview = $(this).parent().find('.preview');
 		if ($(this).siblings('.full').is(':hidden')) {
 			if (!$(this).is('[data-default]')) {
 				var text = $(this).html();
 				$(this).attr('data-default', text);
 			}
 			$(this).html('Скрыть').siblings('.full').show(0);
+			preview.hide();
 		}
 		else {
 			var text = $(this).attr('data-default');
 			$(this).html(text).siblings('.full').hide(0);
+			preview.show();
 		}
 	});
 	
