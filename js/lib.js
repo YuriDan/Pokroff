@@ -290,6 +290,21 @@ $(document).ready(function(){
 	/*****************/
 	/* Custom forms */
 	/*****************/
+
+	$('.p-soccoupon-doublephone .code').on('keyup', function () {
+		var input = $(this);
+		if (input.val().length == input.attr('maxlength')) {
+			$('.p-soccoupon-doublephone .phone').focus();
+		}
+	});
+	$('.p-soccoupon-doublephone .phone').on('keyup', function (e) {
+		var input = $(this);
+		if (e.keyCode == 8 && input.val().length == 0) {
+			$('.p-soccoupon-doublephone .code').val(function (i, val) {
+				return val.substr(0, 2);
+			}).focus();
+		}
+	});
 	
   $('.input input').each(function() {
 		if ($(this).val() != '') {
