@@ -1553,9 +1553,9 @@ h1 span {font-size: 15px;}
 .p-services-text ul {padding-left: 20px;}
 .p-services-text li {padding-bottom: 10px;}
 
-.p-services-list dl {display: inline-block; vertical-align: top; width: 305px; position: relative; padding: 0px 30px 52px 0px;}
+.p-services-list dl {display: inline-block; vertical-align: top; width: 219px; position: relative; padding: 0px 0px 52px 116px;}
 .p-services-list dl:nth-child(2n) {margin-left: 43px;}
-.p-services-list dt {font-size: 18px; line-height: 24px; padding: 0px 0px 17px 116px; min-height: 73px;}
+.p-services-list dt {font-size: 18px; line-height: 24px; padding-bottom: 17px;}
 .p-services-list dt i {display: block; position: absolute; background-image: url(../images/sprite.png);}
 .p-services-list dt i.measure {width: 95px; height: 78px; background-position: -120px -268px; top: -7px; left: 4px;}
 .p-services-list dt i.consult {width: 100px; height: 77px; background-position: -215px -276px; top: -6px; left: -6px;}
