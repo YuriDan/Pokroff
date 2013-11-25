@@ -1171,8 +1171,8 @@ h1 span {font-size: 15px;}
 .p-main-topline-home dl {position: absolute; z-index: 1;}
 .p-main-topline-home dt {padding-bottom: 8px;}
 .p-main-topline-home dt a {font-size: 18px; text-decoration: none; border-bottom: 1px dashed #005190;}
+.p-main-topline-home dt a.yellow {color: #f99f0f; border-bottom-color: #f99f0f; background: none;}
 .p-main-topline-home dt a:hover {border-bottom-color: #f6f6f6;}
-.p-main-topline-home dt a {font-size: 18px; text-decoration: none; border-bottom: 1px dashed #005190;}
 .p-main-topline-home dt span {display: block; color: #909090; font-size: 13px;}
 .p-main-topline-home dd {display: none; padding: 0px 0px 3px 10px;}
 .p-main-topline-home dd a {font-size: 13px;}
@@ -1182,6 +1182,11 @@ h1 span {font-size: 15px;}
 .p-main-topline-home .security {top: 242px; left: 553px;}
 .p-main-topline-home .fence {top: 249px; left: -66px;}
 .p-main-topline-home .drain {top: 332px; left: 37px;}
+.p-main-topline-home.winter {background: url(../images/main-house-winter.jpg) 0px 0px no-repeat; margin-top: 0; padding-top: 24px;}
+.p-main-topline-home.winter dl {margin-top: 24px;}
+.p-main-topline-home.winter dl:hover {margin-top: 17px;}
+.p-main-topline-home.winter .roof {top: 41px; left: 535px;}
+.p-main-topline-home.winter .lights {top: 136px; left: 573px; width: 180px;}
 
 .p-main-topline-home dl:hover {background: #fff; border-radius: 5px; box-shadow: 5px 5px 5px rgba(0, 0, 0, .23); padding: 7px 20px 19px 10px; margin: -7px 0px 0px -10px; z-index: 2;}
 .p-main-topline-home dl:hover dd {display: block;}
