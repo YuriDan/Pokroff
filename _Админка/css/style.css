@@ -132,6 +132,8 @@ select {font: 14px "PT Sans", Arial, Helvetica, sans-serif; display: inline-bloc
 .i-cp-edit:hover, a:hover .i-cp-edit {background-position: -175px -200px;}
 .i-cp-view {width: 14px; height: 11px; background-position: -278px -179px;}
 .i-cp-view:hover, a:hover .i-cp-view {background-position: -278px -190px;}
+.i-cp-view.crossed {width: 14px; height: 13px; position: relative; top: -1px; background-position: -301px -203px;}
+.i-cp-view.crossed:hover, a:hover .i-cp-view.crossed {background-position: -315px -203px;}
 .i-cp-mark {width: 13px; height: 12px; background-position: -278px -224px;}
 .i-cp-mark:hover, a:hover .i-cp-mark {background-position: -278px -236px;}
 .i-cp-marked {width: 12px; height: 13px; background-position: -289px -203px;}
