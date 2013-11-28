@@ -152,8 +152,10 @@ select {font: 14px "PT Sans", Arial, Helvetica, sans-serif; display: inline-bloc
 .cp-page-speedbar a:hover {text-decoration: underline;}
 .cp-page-speedbar > a {float: right; display: block;}
 .cp-page-speedbar > a:before {content: '← ';}
+.cp-page-speedbar + .cp-button {float: right;}
 
-.cp-page h1 {font-size: 30px; font-weight: normal; background: none; color: #010000; margin: 0px; padding: 0px 0px 21px; border: 0px;}
+.cp-page h1 {font-size: 30px; font-weight: normal; background: none; color: #010000; margin: 0px; padding: 0px 0px 21px; border: 0px; float: left;}
+.cp-page h1 + * {clear: both;}
 
 .cp-menu {height: 32px; line-height: 32px; color: #fff; text-shadow: 0px 1px 1px rgba(0, 0, 0, .35); position: relative; margin-bottom: -1px;}
 .cp-menu li {float: left; background: url(../images/cp-menu.png); position: relative;}
