@@ -312,6 +312,9 @@ select {font: 14px "PT Sans", Arial, Helvetica, sans-serif; display: inline-bloc
 .cp-list-filter-search {float: right; width: 319px; height: 24px; background: #fff; border: 1px solid #c6c6c6; position: relative;}
 .cp-list-filter-search input[type="submit"] {display: block; position: absolute; top: 0px; right: 0px; border: 0px; background: url(../images/sprite.png) -292px -179px; width: 46px; height: 24px; cursor: pointer;}
 .cp-list-filter-search input[type="text"] {border: 0px; background: #fff; width: 260px; position: absolute; top: 3px; left: 12px; font-size: 12px;}
+.cp-list-filter-search .cross {display: none; position: absolute; background: url(../images/sprite.png) -60px -150px; width: 9px; height: 9px; top: 0; right: 0; z-index: 3; cursor: pointer; margin: 7px 19px;}
+.cp-list-filter-search .cross.active {display: block;}
+.cp-list-filter-search .cross.active + input {display: none;}
 
 .cp-list-table .number {text-align: center; width: 36px; margin-right: 24px;}
 .cp-list-table .team {width: 315px; margin-right: 9px;}
@@ -325,8 +328,8 @@ select {font: 14px "PT Sans", Arial, Helvetica, sans-serif; display: inline-bloc
 .cp-list-th {overflow: hidden; border-bottom: 1px solid #e2e2e2; font-weight: bold; color: #000; font-size: 14px; padding: 2px 0px 13px;}
 .cp-list-th li {float: left;}
 .cp-list-th .asc a:after, .cp-list-th .desc a:after {content: ''; display: inline-block; vertical-align: top; width: 8px; height: 5px; background-image: url(../images/sprite.png); margin: 9px 0px 0px 4px;}
-.cp-list-th .asc a:after {background-position: -278px -201px;}
-.cp-list-th .desc a:after {background-position: -278px -206px;}
+.cp-list-th .desc a:after {background-position: -278px -201px;}
+.cp-list-th .asc a:after {background-position: -278px -206px;}
 
 .cp-list-item {overflow: hidden; padding: 22px 0px 29px; border-bottom: 1px solid #e2e2e2;}
 .cp-list-item > li {float: left;}
@@ -574,8 +577,8 @@ select {font: 14px "PT Sans", Arial, Helvetica, sans-serif; display: inline-bloc
 .cp-coupons-th {overflow: hidden; border-bottom: 1px solid #e2e2e2; font-weight: bold; color: #000; font-size: 14px; padding: 2px 0px 13px;}
 .cp-coupons-th li {float: left;}
 .cp-coupons-th .asc a:after, .cp-coupons-th .desc a:after {content: ''; display: inline-block; vertical-align: top; width: 8px; height: 5px; background-image: url(../images/sprite.png); margin: 11px 0px 0px 5px;}
-.cp-coupons-th .asc a:after {background-position: -278px -201px;}
-.cp-coupons-th .desc a:after {background-position: -278px -206px;}
+.cp-coupons-th .desc a:after {background-position: -278px -201px;}
+.cp-coupons-th .asc a:after {background-position: -278px -206px;}
 
 .cp-coupons-table a {text-decoration: none;}
 .cp-coupons-table a:hover {text-decoration: underline;}
