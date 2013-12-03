@@ -175,5 +175,13 @@ $(document).ready(function(){
 		prevText: '',
 		nextText: ''
 	});
+
+	$('.cp-list-filter-search input[type="text"]').on('keyup', function () {
+		if ($(this).val().length > 0) $(this).siblings('.cross').addClass('active');
+		else $(this).siblings('.cross').removeClass('active');
+	});
+	$('.cp-list-filter-search .cross').on('click', function () {
+		$(this).siblings('input[type="text"]').val('').trigger('keyup');
+	});
 	
 });
