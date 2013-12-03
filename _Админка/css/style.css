@@ -305,7 +305,8 @@ select {font: 14px "PT Sans", Arial, Helvetica, sans-serif; display: inline-bloc
 .cp-list-filter-new input {display: inline-block; vertical-align: top; margin: 6px 4px 0px 0px;}
 .cp-list-filter-new label {cursor: pointer;}
 .cp-list-filter-new li + li {padding-top: 7px;}
-.cp-list-filter-free {float: left;}
+.cp-list-filter-free {float: left; position: relative;}
+.cp-list-filter-free:before {content: ''; width: 12px; height: 13px; background: url(../images/sprite.png) -167px -101px; display: block; position: absolute; top: 8px; left: 9px;}
 .cp-list-filter-free dt {text-align: right; width: 99px; font-size: 14px; padding: 3px 7px 0px 0px;}
 .cp-list-filter-free .cp-f-item + .cp-f-item {margin-top: 5px;}
 .cp-list-filter-free input {width: 108px;}
