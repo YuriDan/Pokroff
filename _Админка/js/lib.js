@@ -45,10 +45,6 @@ $(document).ready(function(){
 		$('select').trigger('change');
 	}
 	
-	$('.cp-f-photo .add').on('click', function () {
-		$(this).parents('.cp-f-photo').find('input[type="file"]').trigger('click');
-	});
-	
 		
   $('.cp-rating-big input').on('change', function() {
 		var width = $(this).parents('li').attr('class').replace('rate-', '');
@@ -83,11 +79,13 @@ $(document).ready(function(){
 		
 		$('.from', root).datepicker({
 			onSelect: function(selectedDate) {
+				$(this).trigger('keyup');
 				$('.to', root).datepicker('option', 'minDate', selectedDate);
 			}
 		});
 		$('.to', root).datepicker({
 			onSelect: function(selectedDate) {
+				$(this).trigger('keyup');
 				$('.from', root).datepicker('option', 'maxDate', selectedDate);
 			}
 		});
@@ -173,11 +171,11 @@ $(document).ready(function(){
 		nextText: ''
 	});
 
-	$('.cp-list-filter-search input[type="text"]').on('keyup', function () {
+	$('.clearable input[type="text"]').on('keyup', function () {
 		if ($(this).val().length > 0) $(this).siblings('.cross').addClass('active');
 		else $(this).siblings('.cross').removeClass('active');
 	});
-	$('.cp-list-filter-search .cross').on('click', function () {
+	$('.clearable .cross').on('click', function () {
 		$(this).siblings('input[type="text"]').val('').trigger('keyup');
 	});
 	
