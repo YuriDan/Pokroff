@@ -76,7 +76,7 @@ select {font: 14px "PT Sans", Arial, Helvetica, sans-serif; display: inline-bloc
 .cp-button:hover {background-position: 0px -35px;}
 .cp-button:active {background-position: 0px -70px;}
 
-.cp-input {border: 1px solid #c6c6c6; display: inline-block; vertical-align: top;}
+.cp-input {border: 1px solid #c6c6c6; display: inline-block; vertical-align: top; position: relative;}
 .cp-input input, .cp-input textarea {background: #fff; border: 0px; color: #000; font: 14px "PT Sans", sans-serif; padding: 3px 8px 2px;}
 .cp-input.js-focus {border-color: #6fb0fe;}
 
@@ -94,11 +94,11 @@ select {font: 14px "PT Sans", Arial, Helvetica, sans-serif; display: inline-bloc
 .cp-f-custom-radios input:checked + span {border-bottom-color: transparent; color: #000; font-weight: bold;}
 
 .cp-f-photo {overflow: hidden; padding-top: 1px;}
-.cp-f-photo input[type="file"] {display: block; position: absolute; top: -9999px; left: -9999px; border: 0px; opacity: 0.01; filter: progid:DXImageTransform.Microsoft.Alpha(opacity=1); -khtml-opacity: 0.01; -moz-opacity: 0.01; cursor: pointer;}
+.cp-f-photo input[type="file"] {display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0px; opacity: 0.01; filter: progid:DXImageTransform.Microsoft.Alpha(opacity=1); -khtml-opacity: 0.01; -moz-opacity: 0.01; cursor: pointer;}
 .cp-f-photo-added {float: left; padding-right: 6px;}
 .cp-f-photo-added li {float: left; width: 75px; height: 75px; background: url(../images/sprite.png) -203px -179px; border: 1px solid #c6c6c6; border-radius: 1px;}
 .cp-f-photo-added li:empty {cursor: pointer;}
-.cp-f-photo-button {float: left; height: 24px; padding: 0px 18px; color: #fff; font-size: 13px; line-height: 22px; background: #5a87bd; box-shadow: 0px 1px 0px rgba(0, 0, 0, .75); cursor: pointer; margin-top: 1px;}
+.cp-f-photo-button {float: left; height: 24px; padding: 0px 18px; color: #fff; font-size: 13px; line-height: 22px; background: #5a87bd; box-shadow: 0px 1px 0px rgba(0, 0, 0, .75); cursor: pointer; margin-top: 1px; position: relative;}
 .cp-f-photo-button:hover {background: #83b6e9;}
 .cp-f-photo-button:active {background: #4480d2;}
 
@@ -309,13 +309,14 @@ select {font: 14px "PT Sans", Arial, Helvetica, sans-serif; display: inline-bloc
 .cp-list-filter-free:before {content: ''; width: 12px; height: 13px; background: url(../images/sprite.png) -167px -101px; display: block; position: absolute; top: 8px; left: 9px;}
 .cp-list-filter-free dt {text-align: right; width: 99px; font-size: 14px; padding: 3px 7px 0px 0px;}
 .cp-list-filter-free .cp-f-item + .cp-f-item {margin-top: 5px;}
-.cp-list-filter-free input {width: 108px;}
+.cp-list-filter-free input {width: 138px;}
+.cp-list-filter-free .cross {margin-right: 10px !important;}
 .cp-list-filter-search {float: right; width: 319px; height: 24px; background: #fff; border: 1px solid #c6c6c6; position: relative;}
 .cp-list-filter-search input[type="submit"] {display: block; position: absolute; top: 0px; right: 0px; border: 0px; background: url(../images/sprite.png) -292px -179px; width: 46px; height: 24px; cursor: pointer;}
 .cp-list-filter-search input[type="text"] {border: 0px; background: #fff; width: 260px; position: absolute; top: 3px; left: 12px; font-size: 12px;}
-.cp-list-filter-search .cross {display: none; position: absolute; background: url(../images/sprite.png) -60px -150px; width: 9px; height: 9px; top: 0; right: 0; z-index: 3; cursor: pointer; margin: 7px 19px;}
-.cp-list-filter-search .cross.active {display: block;}
-.cp-list-filter-search .cross.active + input {display: none;}
+.clearable .cross {display: none; position: absolute; background: url(../images/sprite.png) -60px -150px; width: 9px; height: 9px; top: 50%; right: 0; z-index: 3; cursor: pointer; margin: -4px 19px 0px;}
+.clearable .cross.active {display: block;}
+.clearable .cross.active + input[type="submit"] {display: none;}
 
 .cp-list-table .number {text-align: center; width: 36px; margin-right: 24px;}
 .cp-list-table .team {width: 315px; margin-right: 9px;}
@@ -517,7 +518,8 @@ select {font: 14px "PT Sans", Arial, Helvetica, sans-serif; display: inline-bloc
 .cp-obj-list-filter .f-daterange > * {display: block; float: left;}
 .cp-obj-list-filter .f-daterange span {padding: 2px 14px 0px 2px;}
 .cp-obj-list-filter .f-daterange .cp-input {margin-right: 20px;}
-.cp-obj-list-filter .f-daterange input {width: 111px;}
+.cp-obj-list-filter .f-daterange input {width: 138px;}
+.cp-obj-list-filter .f-daterange .cross {margin-right: 10px !important;}
 
 .cp-obj-list-th {overflow: hidden; font-size: 14px; color: #000; padding: 1px 0px 14px; margin-bottom: 23px; border-bottom: 1px solid #e2e2e2;}
 .cp-obj-list-th li {float: left;}
