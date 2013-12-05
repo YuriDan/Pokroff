@@ -37,6 +37,14 @@ $.datepicker.setDefaults({
 $(document).ready(function(){
 	
 	$('body').append('<div class="screen" />');
+
+	$('.clearable input[type="text"]').on('keyup', function () {
+		if ($(this).val().length > 0) $(this).parents('.clearable').find('.cross').addClass('active');
+		else $(this).parents('.clearable').find('.cross').removeClass('active');
+	});
+	$('.clearable .cross').on('click', function () {
+		$(this).parents('.clearable').find('input[type="text"]').val('').trigger('keyup');
+	});
 	
 	/************/
 	/* IE fixes */

@@ -81,7 +81,7 @@ a, a img {border: none;}
 .button.v2.h34:hover {background-position: 0px -115px;}
 .button.v2.h34:active {background-position: 0px -149px;}
 
-.input {background: url(../images/forms.png) 0px -29px; display: inline-block; *display: inline; zoom: 1; vertical-align: top;}
+.input {background: url(../images/forms.png) 0px -29px; display: inline-block; *display: inline; zoom: 1; vertical-align: top; position: relative;}
 .input span {display: block; background: url(../images/forms.png) no-repeat; height: 29px;}
 .input span span {background-position: 100% -58px;}
 .input input {border: 0px; font: 15px Arial, Helvetica, sans-serif; color: #2e2e2e; background: url(../images/blank.gif); padding: 5px 8px;}
@@ -1064,8 +1064,9 @@ h1 span {font-size: 15px;}
 .p-teams-filter {padding: 17px 0px 30px; margin-bottom: 13px; border-bottom: 1px solid #f1f1f1;}
 .p-teams-filter dl {padding-bottom: 12px; font-size: 13px;}
 .p-teams-filter dt {width: 227px; font-weight: bold; display: inline-block; vertical-align: top; padding-top: 6px;}
-.p-teams-filter dd {width: 250px; display: inline-block; vertical-align: top;}
+.p-teams-filter dd {width: 300px; display: inline-block; vertical-align: top;}
 .p-teams-filter .time .input {margin-right: 11px;}
+.p-teams-filter .time .input span span {padding-right: 20px;}
 .p-teams-filter .time input {width: 72px; font-size: 13px; padding: 9px 10px;}
 .p-teams-filter .time dd > span {display: inline-block; vertical-align: top; padding: 6px 2px 0px 0px;}
 .p-teams-filter .credit-slider {margin: 14px 0px 0px 13px;}
@@ -1073,6 +1074,9 @@ h1 span {font-size: 15px;}
 .p-teams-filter .credit-slider li:first-child {width: 71px;}
 .p-teams-filter .credit-slider li:first-child + li {width: 79px;}
 .p-teams-filter .credit-slider li:first-child + li + li {width: 69px;}
+
+.clearable .cross {display: none; position: absolute; background: url(../images/sprite.png) -60px -150px; width: 9px; height: 9px; top: 50%; right: 0; z-index: 3; cursor: pointer; margin: -4px 10px 0px;}
+.clearable .cross.active {display: block;}
 
 .p-teams .sorter {padding-bottom: 12px;}
 
