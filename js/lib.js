@@ -45,6 +45,7 @@ $(document).ready(function(){
 	$('.clearable .cross').on('click', function () {
 		$(this).parents('.clearable').find('input[type="text"]').val('').trigger('keyup');
 	});
+	$('.clearable input[type="text"]').trigger('keyup');
 	
 	/************/
 	/* IE fixes */
