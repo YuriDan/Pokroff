@@ -295,6 +295,14 @@ $(document).ready(function(){
 		e.preventDefault();
 		$(this).parents('.p-obj-list-item').find('.fotorama').fotorama({allowfullscreen: true}).data('fotorama').requestFullScreen();
 	});
+
+	$('.fotorama').on('fotorama:show fotorama:load', function (e, fotorama) {
+		$('.fotorama__caption', fotorama.activeFrame.$stageFrame).css({
+			left: '50%',
+			marginLeft: fotorama.activeFrame.$stageFrame.find('img').css('margin-left'),
+			width: fotorama.activeFrame.$stageFrame.find('img').css('width')
+		});
+	});
 	
 	if ($('.block-banner li').size() > 1) {
 		$('.block-banner ul').bxSlider({
