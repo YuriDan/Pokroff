@@ -1598,3 +1598,5 @@ h1 span {font-size: 15px;}
 .fotorama__thumb-border {display: none;}
 .fotorama__nav__frame--thumb {opacity: 0.25; filter: progid:DXImageTransform.Microsoft.Alpha(opacity=25); -khtml-opacity: 0.25; -moz-opacity: 0.25;}
 .fotorama__nav__frame--thumb.fotorama__active {opacity: 1; filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100); -khtml-opacity: 1; -moz-opacity: 1;}
+
+.fotorama--fullscreen .fotorama__caption {width: 400px !important; margin-left: -200px !important;}
