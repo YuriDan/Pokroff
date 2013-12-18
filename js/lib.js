@@ -296,7 +296,7 @@ $(document).ready(function(){
 		$(this).parents('.p-obj-list-item').find('.fotorama').fotorama({allowfullscreen: true}).data('fotorama').requestFullScreen();
 	});
 
-	$('.fotorama').on('fotorama:show fotorama:load', function (e, fotorama) {
+	$('.fotorama').on('fotorama:show fotorama:load fotorama:fullscreenexit', function (e, fotorama) {
 		$('.fotorama__caption', fotorama.activeFrame.$stageFrame).css({
 			left: '50%',
 			marginLeft: fotorama.activeFrame.$stageFrame.find('img').css('margin-left'),
