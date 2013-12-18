@@ -1504,8 +1504,9 @@ h1 span {font-size: 15px;}
 .p-soccoupon-main-buttons .button {display: block; text-align: center; margin-bottom: 18px; padding: 0;}
 .p-soccoupon-main-buttons .button i {margin: 10px 8px 0px 0px;}
 
-.p-soccoupon-main-next {border-top: 1px solid #e2e2e2; padding: 36px 15px;}
+.p-soccoupon-main-next {padding: 36px 15px; margin-top: -132px; position: absolute;}
 .p-soccoupon-main-next a:after {content: '→'; position: absolute; margin-left: 5px;}
+.p-soccoupon-main-next + .p-soccoupon-main-buttons {border-bottom: 1px solid #e2e2e2;}
 
 .p-soccoupon-stat {padding: 10px 0px 55px;}
 .p-soccoupon-stat dt {font-size: 24px; line-height: 36px; font-weight: bold; padding-bottom: 25px;}
