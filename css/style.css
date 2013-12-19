@@ -1449,11 +1449,12 @@ h1 span {font-size: 15px;}
 .p-soccoupon-steps li.active:before {background-color: #77aee6;}
 .p-soccoupon-steps li:first-child:before {display: none;}
 .p-soccoupon-steps li + li {margin-left: 29px;}
-.p-soccoupon-steps a {text-decoration: none; color: #333;}
+.p-soccoupon-steps a {color: #333;}
 .p-soccoupon-steps b {display: inline-block; vertical-align: top; width: 36px; height: 36px; text-align: center; font-size: 24px; line-height: 36px; background-color: #d4d4d4; color: #474747;}
 .p-soccoupon-steps span {display: block; font-size: 13px; line-height: 15px; padding-top: 10px;}
 .p-soccoupon-steps .active b {background-color: #77aee6; color: #fff;}
 .p-soccoupon-steps .active span {font-weight: bold; font-size: 15px; line-height: 18px; padding-top: 8px;}
+.p-soccoupon-steps .active a {text-decoration: none;}
 
 .p-soccoupon-create .input {margin-bottom: 17px;}
 .p-soccoupon-create .input input {width: 472px;}
